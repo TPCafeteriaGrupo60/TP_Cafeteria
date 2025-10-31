@@ -1,0 +1,135 @@
+# depslib dependency file v1.0
+1761082176 source:c:\users\mati\documents\tup mati\programacion 2\proyecto tpi\mozos\paramozos\main.cpp
+	<iostream>
+	"ArchivoMozo.h"
+
+1761011938 c:\users\mati\documents\tup mati\programacion 2\proyecto tpi\mozos\paramozos\mozo.h
+	"Fecha.h"
+
+1761080564 c:\users\mati\documents\tup mati\programacion 2\proyecto tpi\mozos\paramozos\fecha.h
+	<iostream>
+
+1761079868 source:c:\users\mati\documents\tup mati\programacion 2\proyecto tpi\mozos\paramozos\mozo.cpp
+	<iostream>
+	<cstring>
+	"Mozo.h"
+
+1761082244 source:c:\users\mati\documents\tup mati\programacion 2\proyecto tpi\mozos\paramozos\archivomozo.cpp
+	"ArchivoMozo.h"
+	<iostream>
+
+1761081394 c:\users\mati\documents\tup mati\programacion 2\proyecto tpi\mozos\paramozos\archivomozo.h
+	"Mozo.h"
+	<cstdio>
+
+1761082207 source:c:\users\mati\documents\tup mati\programacion 2\proyecto tpi\mozos\paramozos\menumozos.cpp
+	"Mozo.h"
+	"ArchivoMozo.h"
+	<iostream>
+
+1761876658 source:c:\users\mati\downloads\tp cafeteria\archivomozo.cpp
+	"ArchivoMozo.h"
+	<iostream>
+
+1761871402 c:\users\mati\downloads\tp cafeteria\archivomozo.h
+	"Mozo.h"
+	<cstdio>
+
+1761876744 c:\users\mati\downloads\tp cafeteria\mozo.h
+	"Fecha.h"
+
+1761874804 c:\users\mati\downloads\tp cafeteria\fecha.h
+	<iostream>
+
+1761878658 source:c:\users\mati\downloads\tp cafeteria\main.cpp
+	<iostream>
+	"ArchivoMozo.h"
+	"ArchivoCliente.h"
+	"ArchivoMesa.h"
+	"ArchivoMenu.h"
+	"ArchivoTurno.h"
+
+1761876750 source:c:\users\mati\downloads\tp cafeteria\mozo.cpp
+	<iostream>
+	<cstring>
+	"Mozo.h"
+
+1761877983 source:c:\users\mati\downloads\tp cafeteria\archivocliente.cpp
+	<iostream>
+	<cstdio>
+	"ArchivoCliente.h"
+
+1761763860 c:\users\mati\downloads\tp cafeteria\archivocliente.h
+	"Cliente.h"
+	<cstdio>
+
+1761877833 c:\users\mati\downloads\tp cafeteria\cliente.h
+	<iostream>
+	<cstring>
+	"Fecha.h"
+
+1761770582 source:c:\users\mati\downloads\tp cafeteria\archivomenu.cpp
+	<iostream>
+	<cstdio>
+	"ArchivoMenu.h"
+
+1761766864 c:\users\mati\downloads\tp cafeteria\archivomenu.h
+	"menu.h"
+
+1761766600 c:\users\mati\downloads\tp cafeteria\menu.h
+
+1761422936 source:c:\users\mati\downloads\tp cafeteria\archivomesa.cpp
+	"ArchivoMesa.h"
+	<iostream>
+	<cstdio>
+
+1761420026 c:\users\mati\downloads\tp cafeteria\archivomesa.h
+	"Mesa.h"
+	<cstdio>
+
+1761419172 c:\users\mati\downloads\tp cafeteria\mesa.h
+	<iostream>
+	<cstring>
+
+1761824382 source:c:\users\mati\downloads\tp cafeteria\archivoturno.cpp
+	<iostream>
+	<cstdio>
+	"ArchivoTurno.h"
+
+1761823868 c:\users\mati\downloads\tp cafeteria\archivoturno.h
+	"Turno.h"
+
+1761821252 c:\users\mati\downloads\tp cafeteria\turno.h
+
+1761826656 source:c:\users\mati\downloads\tp cafeteria\main - v2.cpp
+	<iostream>
+	"ArchivoMozo.h"
+	"ArchivoMesa.h"
+	"ArchivoCliente.h"
+	"ArchivoMenu.h"
+	"ArchivoTurno.h"
+	<cstdlib>
+
+1761766788 source:c:\users\mati\downloads\tp cafeteria\menu.cpp
+	<iostream>
+	<cstring>
+	"menu.h"
+
+1761419172 source:c:\users\mati\downloads\tp cafeteria\mesa.cpp
+	<iostream>
+	<cstring>
+	"Mesa.h"
+
+1761821238 source:c:\users\mati\downloads\tp cafeteria\turno.cpp
+	<iostream>
+	<cstring>
+	"Turno.h"
+
+1761877983 source:c:\users\mati\downloads\tp cafeteria\cliente.cpp
+	<iostream>
+	<cstring>
+	"Cliente.h"
+	"Fecha.h"
+
+1761878990 source:c:\users\mati\downloads\tp cafeteria\stock.cpp
+
