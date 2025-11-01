@@ -19,7 +19,6 @@ public:
     void listarTurnos();
     int buscarPosPorId(int id);
 
-    void MenuTurnos();
 };
 
 #endif

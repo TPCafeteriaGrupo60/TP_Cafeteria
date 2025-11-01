@@ -1,0 +1,30 @@
+#ifndef TURNOMENU_H_INCLUDED
+#define TURNOMENU_H_INCLUDED
+
+#include "TurnoManager.h"
+
+    //TurnoManager manager;
+
+    //TurnoMenu(const char* nombreArchivo);
+
+
+class TurnoMenu{
+
+public:
+    TurnoMenu(const char* nombreArchivo);
+
+    void mostrar();
+
+protected:
+    void mostrarOpciones();
+    int seleccionOpcion();
+    void ejecutarOpcion(int opcion);
+
+private:
+    TurnoManager _tareaManager;
+    int _cantidadOpciones;
+
+};
+
+
+#endif
