@@ -313,18 +313,18 @@
 	"TurnoMenu.h"
 	"stock.h"
 
-1761967184 c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\turnomenu.h
+1762019000 c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\turnomenu.h
 	"TurnoManager.h"
 
-1761953787 c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\turnomanager.h
+1762018941 c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\turnomanager.h
 	"ArchivoTurno.h"
 
-1761957916 source:c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\turnomanager.cpp
+1762018826 source:c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\turnomanager.cpp
 	<iostream>
 	<cstdio>
 	"TurnoManager.h"
 
-1761957347 source:c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\turnomenu.cpp
+1762018877 source:c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\turnomenu.cpp
 	<iostream>
 	"TurnoMenu.h"
 	"TurnoManager.h"

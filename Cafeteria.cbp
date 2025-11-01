@@ -54,6 +54,14 @@
 		<Unit filename="Stock.cpp" />
 		<Unit filename="Turno.cpp" />
 		<Unit filename="Turno.h" />
+		<Unit filename="TurnoManager.cpp" />
+		<Unit filename="TurnoManager.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="TurnoMenu.cpp" />
+		<Unit filename="TurnoMenu.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
 		<Unit filename="main.cpp" />
 		<Unit filename="stock.h" />
 		<Extensions>

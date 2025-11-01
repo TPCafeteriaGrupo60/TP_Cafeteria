@@ -3,11 +3,6 @@
 
 #include "TurnoManager.h"
 
-    //TurnoManager manager;
-
-    //TurnoMenu(const char* nombreArchivo);
-
-
 class TurnoMenu{
 
 public:
@@ -21,10 +16,9 @@ protected:
     void ejecutarOpcion(int opcion);
 
 private:
-    TurnoManager _tareaManager;
+    TurnoManager _turnoManager;
     int _cantidadOpciones;
 
 };
-
 
 #endif

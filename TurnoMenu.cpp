@@ -5,7 +5,7 @@
 using namespace std;
 
 TurnoMenu::TurnoMenu(const char* nombreArchivo)
-    : _tareaManager(nombreArchivo), _cantidadOpciones(4)
+    : _turnoManager(nombreArchivo), _cantidadOpciones(4)
 {
 }
 
@@ -49,48 +49,26 @@ int TurnoMenu:: seleccionOpcion(){
     return opcion;
 }
 
-
-void TurnoMenu:: ejecutarOpcion(int opcion)
-{
-switch(opcion) {
-    case 1: {
-        Turno t;
-        t.Cargar();
-        if(_tareaManager.agregarTurno(t))
-            cout << "Turno agregado con exito." << endl;
-        else
-            cout << "Error al agregar turno." << endl;
-        break;
-    }
-    case 2:
-        _tareaManager.listarTurnos();
-        break;
-    case 3: {
-        int id;
-        cout << "Ingrese ID a modificar: ";
-        cin >> id;
-        Turno t;
-        t.Cargar();
-        if(_tareaManager.modificarTurnoPorId(id, t))
-            cout << "Turno modificado." << endl;
-        else
-            cout << "Error al modificar turno." << endl;
-        break;
-    }
-    case 4: {
-        int id;
-        cout << "Ingrese ID a eliminar: ";
-        cin >> id;
-        if(_tareaManager.eliminarTurnoPorId(id))
-            cout << "Turno eliminado." << endl;
-        else
-            cout << "Error al eliminar turno." << endl;
-        break;
-    }
-    case 5:
-        cout << "\nVolviendo al menu principal...\n" << endl;
-        break;
-    default:
-    cout << "Opcion invalida. Intente nuevamente." << endl;
+void TurnoMenu::ejecutarOpcion(int opcion) {
+    do {
+        switch (opcion) {
+            case 1:
+                _turnoManager.agregarTurno();
+                break;
+            case 2:
+                _turnoManager.listarTurnos();
+                break;
+            case 3:
+                _turnoManager.modificarTurnoPorId();
+                break;
+            case 4:
+                _turnoManager.eliminarTurnoPorId();
+                break;
+            case 0:
+                cout << "\nVolviendo al menu principal...\n";
+                break;
+            default:
+                cout << "Opcion invalida. Intente nuevamente." << endl;
         }
+    } while (false);
 }

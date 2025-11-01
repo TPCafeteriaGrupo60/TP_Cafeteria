@@ -10,10 +10,10 @@ private:
 public:
     TurnoManager(const char* nombreArchivo);
 
-    bool agregarTurno(const Turno& t);
+    bool agregarTurno();
     void listarTurnos();
-    bool modificarTurnoPorId(int id, const Turno& t);
-    bool eliminarTurnoPorId(int id);
+    bool modificarTurnoPorId();
+    bool eliminarTurnoPorId();
 };
 
 #endif
