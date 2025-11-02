@@ -52,6 +52,6 @@ void Cliente::Mostrar()  {
     cout << "Telefono: " << telefono << endl;
     cout << "Fecha de alta: ";
     fechaAlta.Mostrar();
-    cout << "Eliminado: " << (eliminado ? "Sí" : "No") << endl;
+    cout << "Eliminado: " << (eliminado ? "S " : "No") << endl;
     cout << "-----------------------------" << endl;
 }

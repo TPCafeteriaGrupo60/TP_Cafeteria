@@ -16,7 +16,7 @@ Mozo::Mozo(int id, const char* nom, const char* ape, int turno) {
     idMozo = id;
     strcpy(nombre, nom);
     strcpy(apellido, ape);
-//    fechaIngreso = fecha;
+   // fechaIngreso = fecha;
     idTurno = turno;
     eliminado = false;
 }
@@ -29,8 +29,21 @@ int Mozo::getIdTurno()  { return idTurno; }
 bool Mozo::getEliminado()  { return eliminado; }
 
 void Mozo::setEliminado(bool e) { eliminado = e; }
+void Mozo::setIdMozo(int id) { idMozo = id; }
 
+void Mozo::Cargar() {
+    cin.ignore();
+    cout << "Nombre: ";
+    cin.getline(nombre, 30);
+    cout << "Apellido: ";
+    cin.getline(apellido, 30);
 
+    cout << "ID del Turno (1=Mediodía, 2=Noche): ";
+    cin >> idTurno;
+
+    fechaIngreso = Fecha();
+    eliminado = false;
+}
 
 void Mozo::Mostrar()  {
     cout<<"ID Mozo: "<<idMozo<<endl;

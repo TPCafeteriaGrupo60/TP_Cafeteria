@@ -26,9 +26,10 @@ public:
     bool getEliminado() ;
 
     void setEliminado(bool e);
+    void setIdMozo(int id);
 
     // Métodos
-  //  void Cargar();
+    void Cargar();
     void Mostrar() ;  //  el const indica que no modifica atributos
 };
 

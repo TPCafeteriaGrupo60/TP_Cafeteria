@@ -49,5 +49,5 @@ void Turno::Mostrar() const {
     cout << "Nombre: " << nombre << endl;
     cout << "Hora inicio: " << horaInicio << endl;
     cout << "Hora fin: " << horaFin << endl;
-    cout << "Eliminado: " << (eliminado ? "Sí" : "No") << endl;
+    cout << "Eliminado: " << (eliminado ? "S " : "No") << endl;
 }

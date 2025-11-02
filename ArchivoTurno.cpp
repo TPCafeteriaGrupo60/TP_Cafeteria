@@ -59,7 +59,7 @@ Turno ArchivoTurno::buscarTurnoPorId(int id) {
         }
     }
     fclose(p);
-    return Turno(); // devuelve uno vacío si no lo encuentra
+    return Turno();
 }
 
 bool ArchivoTurno::modificarTurno(int pos, const Turno& reg) {
@@ -101,80 +101,4 @@ void ArchivoTurno::listarTurnos() {
             cout << "---------------------" << endl;
         }
     }
-}
-
-void ArchivoTurno::MenuTurnos() {
-    ArchivoTurno archivo("Turnos.dat");
-    int opcion;
-
-    do {
-        cout << "--- MENU TURNOS ---" << endl;
-        cout << "1 - Agregar turno" << endl;
-        cout << "2 - Listar turnos" << endl;
-        cout << "3 - Modificar turno" << endl;
-        cout << "4 - Eliminar turno" << endl;
-        cout << "5 - Salir" << endl;
-        cout << "-------------------" << endl;
-        cout << "Ingrese opcion: ";
-        cin >> opcion;
-
-        switch (opcion) {
-        case 1: {
-            Turno t;
-            cout << "Ingrese los datos del turno:" << endl;
-            t.Cargar();
-            if (archivo.guardarTurno(t))
-                cout << "Turno agregado con exito." << endl;
-            else
-                cout << "Error al guardar el turno." << endl;
-            break;
-        }
-        case 2:
-            cout << "Lista de turnos:" << endl;
-            archivo.listarTurnos();
-            break;
-        case 3: {
-            int idModificar;
-            cout << "Ingrese el ID del turno a modificar: ";
-            cin >> idModificar;
-
-            int pos = archivo.buscarPosPorId(idModificar);
-
-            if (pos == -1) {
-                cout << "No se encontro turno con ese ID." << endl;
-                break;
-            }
-
-            Turno modificado;
-            cout << "Ingrese los nuevos datos del turno:" << endl;
-            modificado.Cargar();
-
-            if (archivo.modificarTurno(pos, modificado))
-                cout << "Turno modificado con exito." << endl;
-            else
-                cout << "Error al modificar el turno." << endl;
-            break;
-        }
-        case 4: {
-            int idEliminar;
-            cout << "Ingrese el ID del turno a eliminar: ";
-            cin >> idEliminar;
-
-            if (archivo.eliminarTurno(idEliminar))
-                cout << "Turno eliminado con exito." << endl;
-            else
-                cout << "No se encontro el turno con ese ID." << endl;
-            break;
-        }
-        case 5:
-            cout << "Volviendo al menu principal..." << endl;
-            break;
-        default:
-            cout << "Opcion invalida. Intente nuevamente." << endl;
-        }
-
-        system("pause");
-        system("cls");
-
-    } while (opcion != 5);
 }

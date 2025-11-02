@@ -1,7 +1,6 @@
-#include "ArchivoMesa.h"
 #include <iostream>
 #include <cstdio>
-// o stdlib.h
+#include "ArchivoMesa.h"
 
 using namespace std;
 
@@ -31,6 +30,29 @@ Mesa ArchivoMesa::leerMesa(int pos) {
     fclose(p);
     return reg;
 }
+
+int ArchivoMesa::buscarPosPorId(int id) {
+    int cant = contarMesas();
+    for (int i = 0; i < cant; i++) {
+        Mesa reg = leerMesa(i);
+        if (reg.getIdMesa() == id && !reg.getEliminado()) {
+            return i;
+        }
+    }
+    return -1;
+}
+
+Mesa ArchivoMesa::buscarMesaPorId(int id) {
+    int cant = contarMesas();
+    for (int i = 0; i < cant; i++) {
+        Mesa reg = leerMesa(i);
+        if (reg.getIdMesa() == id && !reg.getEliminado()) {
+            return reg;
+        }
+    }
+    return Mesa();
+}
+
 
 void ArchivoMesa::listarMesas() {
     int cant = contarMesas();
@@ -80,69 +102,4 @@ bool ArchivoMesa::modificarMesa(int id, const Mesa& modificado) {
 
     fclose(p);
     return false;
-}
-
-void ArchivoMesa::MenuMesas() {
-    ArchivoMesa archivo("Mesas.dat");
-    int opcion;
-
-    do {
-        cout << "--- Menu Mesas ---" << endl;
-        cout << "1- Agregar mesa" << endl;
-        cout << "2- Listar mesas" << endl;
-        cout << "3- Modificar mesa" << endl;
-        cout << "4- Eliminar mesa" << endl;
-        cout << "5- Salir" << endl;
-        cout << "------------------"<<endl;
-        cout << "Ingrese opcion: ";
-        cin >> opcion;
-
-        switch (opcion) {
-        case 1: {
-            Mesa m;
-            cout << "Ingrese datos de la mesa:" << endl;
-            m.Cargar();
-            if (archivo.guardarMesa(m))
-                cout << "Mesa agregada con exito." << endl;
-            else
-                cout << "Error al guardar la mesa." << endl;
-            break;
-        }
-        case 2:
-            cout << "Lista de mesas:" << endl;
-            archivo.listarMesas();
-            break;
-        case 3: {
-            int idModificar;
-            cout << "Ingrese el ID de la mesa a modificar: ";
-            cin >> idModificar;
-
-            Mesa modificado;
-            cout << "Ingrese los nuevos datos:" << endl;
-            modificado.Cargar();
-
-            if (archivo.modificarMesa(idModificar, modificado))
-                cout << "Mesa modificada con exito." << endl;
-            else
-                cout << "No se encontro la mesa con ese ID." << endl;
-            break;
-        }
-        case 4: {
-            int idEliminar;
-            cout << "Ingrese el ID de la mesa a eliminar: ";
-            cin >> idEliminar;
-
-            if (archivo.eliminarMesa(idEliminar))
-                cout << "Mesa eliminada con exito." << endl;
-            else
-                cout << "No se encontro la mesa con ese ID." << endl;
-            break;
-        }
-        case 5:
-            cout << "Volviendo al menu principal..." << endl;
-            break;
-        default:
-            cout << "Opcion invalida, intente nuevamente." << endl;
-        }
-    } while (opcion != 5);
 }

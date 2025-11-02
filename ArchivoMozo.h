@@ -12,15 +12,13 @@ public:
     ArchivoMozo(const char* nombre) { nombreArchivo = nombre; }
 
     bool guardarMozo(const Mozo& reg);
-    int contarMozos();
     Mozo leerMozo(int pos);
+    int contarMozos();
+    Mozo buscarMozoPorId(int id);
+    int buscarPosPorId(int id);
     void listarMozos();
-    bool eliminarMozo(int id);
     bool modificarMozo(int id, const Mozo& modificado);
-    void MenuMozos();
-    void agregarMozo();
-    Mozo cargarDatosMozo(int idExistente);
-    void editarMozo();
+    bool eliminarMozo(int id);
 };
 
 #endif

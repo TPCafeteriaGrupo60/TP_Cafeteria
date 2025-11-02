@@ -12,13 +12,13 @@ public:
     ArchivoMesa(const char* nombre) { nombreArchivo = nombre; }
 
     bool guardarMesa(const Mesa& reg);
-    int contarMesas();
     Mesa leerMesa(int pos);
+    int contarMesas();
+    Mesa buscarMesaPorId(int id);
+    int buscarPosPorId(int id);
     void listarMesas();
     bool eliminarMesa(int id);
     bool modificarMesa(int id, const Mesa& modificado);
-
-    void MenuMesas();
 };
 
 

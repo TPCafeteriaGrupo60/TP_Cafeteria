@@ -14,12 +14,10 @@ public:
     Turno leerTurno(int pos);
     int contarTurnos();
     Turno buscarTurnoPorId(int id);
+    int buscarPosPorId(int id);
+    void listarTurnos();
     bool modificarTurno(int pos, const Turno& reg);
     bool eliminarTurno(int id);
-    void listarTurnos();
-    int buscarPosPorId(int id);
-
-    void MenuTurnos();
 };
 
 #endif

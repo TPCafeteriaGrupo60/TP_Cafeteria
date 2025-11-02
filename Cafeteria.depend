@@ -1,210 +1,225 @@
 # depslib dependency file v1.0
-1761877983 source:c:\users\mati\downloads\tp cafeteria\archivocliente.cpp
+1762063986 source:c:\users\usuario\downloads\cafe\cafeteria\archivocliente.cpp
 	<iostream>
 	<cstdio>
 	"ArchivoCliente.h"
 
-1761763860 c:\users\mati\downloads\tp cafeteria\archivocliente.h
+1762063986 c:\users\usuario\downloads\cafe\cafeteria\archivocliente.h
 	"Cliente.h"
 	<cstdio>
 
-1761877833 c:\users\mati\downloads\tp cafeteria\cliente.h
+1762063986 c:\users\usuario\downloads\cafe\cafeteria\cliente.h
 	<iostream>
 	<cstring>
 	"Fecha.h"
 
-1761874804 c:\users\mati\downloads\tp cafeteria\fecha.h
+1762063986 c:\users\usuario\downloads\cafe\cafeteria\fecha.h
 	<iostream>
 
-1761770582 source:c:\users\mati\downloads\tp cafeteria\archivomenu.cpp
+1762063986 source:c:\users\usuario\downloads\cafe\cafeteria\archivomenu.cpp
 	<iostream>
 	<cstdio>
 	"ArchivoMenu.h"
 
-1761766864 c:\users\mati\downloads\tp cafeteria\archivomenu.h
+1762063986 c:\users\usuario\downloads\cafe\cafeteria\archivomenu.h
 	"menu.h"
 
-1761766600 c:\users\mati\downloads\tp cafeteria\menu.h
+1762063986 c:\users\usuario\downloads\cafe\cafeteria\menu.h
 
-1761422936 source:c:\users\mati\downloads\tp cafeteria\archivomesa.cpp
-	"ArchivoMesa.h"
+1762063986 source:c:\users\usuario\downloads\cafe\cafeteria\archivomesa.cpp
 	<iostream>
 	<cstdio>
+	"ArchivoMesa.h"
 
-1761420026 c:\users\mati\downloads\tp cafeteria\archivomesa.h
+1762063986 c:\users\usuario\downloads\cafe\cafeteria\archivomesa.h
 	"Mesa.h"
 	<cstdio>
 
-1761419172 c:\users\mati\downloads\tp cafeteria\mesa.h
+1762063986 c:\users\usuario\downloads\cafe\cafeteria\mesa.h
 	<iostream>
 	<cstring>
 
-1761876658 source:c:\users\mati\downloads\tp cafeteria\archivomozo.cpp
+1762063986 source:c:\users\usuario\downloads\cafe\cafeteria\archivomozo.cpp
 	"ArchivoMozo.h"
 	<iostream>
 
-1761871402 c:\users\mati\downloads\tp cafeteria\archivomozo.h
+1762063986 c:\users\usuario\downloads\cafe\cafeteria\archivomozo.h
 	"Mozo.h"
 	<cstdio>
 
-1761876744 c:\users\mati\downloads\tp cafeteria\mozo.h
+1762063986 c:\users\usuario\downloads\cafe\cafeteria\mozo.h
 	"Fecha.h"
 
-1761883223 source:c:\users\mati\downloads\tp cafeteria\archivoturno.cpp
+1762063986 source:c:\users\usuario\downloads\cafe\cafeteria\archivoturno.cpp
 	<iostream>
 	<cstdio>
 	"ArchivoTurno.h"
 
-1761883279 c:\users\mati\downloads\tp cafeteria\archivoturno.h
+1762063986 c:\users\usuario\downloads\cafe\cafeteria\archivoturno.h
 	"Turno.h"
 
-1761821252 c:\users\mati\downloads\tp cafeteria\turno.h
+1762063986 c:\users\usuario\downloads\cafe\cafeteria\turno.h
 
-1761877983 source:c:\users\mati\downloads\tp cafeteria\cliente.cpp
+1762063986 source:c:\users\usuario\downloads\cafe\cafeteria\cliente.cpp
 	<iostream>
 	<cstring>
 	"Cliente.h"
 	"Fecha.h"
 
-1761766788 source:c:\users\mati\downloads\tp cafeteria\menu.cpp
+1762063986 source:c:\users\usuario\downloads\cafe\cafeteria\clientemanager.cpp
+	<iostream>
+	<cstdio>
+	"ClienteManager.h"
+
+1762063986 c:\users\usuario\downloads\cafe\cafeteria\clientemanager.h
+	"ArchivoCliente.h"
+
+1762063986 source:c:\users\usuario\downloads\cafe\cafeteria\clientemenu.cpp
+	<iostream>
+	"ClienteMenu.h"
+	"ClienteManager.h"
+
+1762063986 c:\users\usuario\downloads\cafe\cafeteria\clientemenu.h
+	"ClienteManager.h"
+
+1762066707 source:c:\users\usuario\downloads\cafe\cafeteria\main.cpp
+	<iostream>
+	"ClienteMenu.h"
+	"MenuMenu.h"
+	"MesaMenu.h"
+	"MozoMenu.h"
+	"TurnoMenu.h"
+	"StockManager.h"
+	"ArchivoVenta.h"
+
+1762063986 c:\users\usuario\downloads\cafe\cafeteria\menumenu.h
+	"MenuManager.h"
+
+1762063986 c:\users\usuario\downloads\cafe\cafeteria\menumanager.h
+	"ArchivoMenu.h"
+
+1762063986 c:\users\usuario\downloads\cafe\cafeteria\mesamenu.h
+	"MesaManager.h"
+
+1762063986 c:\users\usuario\downloads\cafe\cafeteria\mesamanager.h
+	"ArchivoMesa.h"
+
+1762063986 c:\users\usuario\downloads\cafe\cafeteria\mozomenu.h
+	"MozoManager.h"
+
+1762063986 c:\users\usuario\downloads\cafe\cafeteria\mozomanager.h
+	"ArchivoMozo.h"
+
+1762063986 c:\users\usuario\downloads\cafe\cafeteria\turnomenu.h
+	"TurnoManager.h"
+
+1762063986 c:\users\usuario\downloads\cafe\cafeteria\turnomanager.h
+	"ArchivoTurno.h"
+
+1762066312 c:\users\usuario\downloads\cafe\cafeteria\stock.h
+	<iostream>
+	<cstring>
+
+1762063986 source:c:\users\usuario\downloads\cafe\cafeteria\menu.cpp
 	<iostream>
 	<cstring>
 	"menu.h"
 
-1761419172 source:c:\users\mati\downloads\tp cafeteria\mesa.cpp
+1762063986 source:c:\users\usuario\downloads\cafe\cafeteria\menumanager.cpp
+	<iostream>
+	<cstdio>
+	"MenuManager.h"
+
+1762063986 source:c:\users\usuario\downloads\cafe\cafeteria\menumenu.cpp
+	<iostream>
+	"MenuMenu.h"
+	"MenuManager.h"
+
+1762063986 source:c:\users\usuario\downloads\cafe\cafeteria\mesa.cpp
 	<iostream>
 	<cstring>
 	"Mesa.h"
 
-1761882365 source:c:\users\mati\downloads\tp cafeteria\mozo.cpp
+1762063986 source:c:\users\usuario\downloads\cafe\cafeteria\mesamanager.cpp
+	<iostream>
+	<cstdio>
+	"MesaManager.h"
+
+1762063986 source:c:\users\usuario\downloads\cafe\cafeteria\mesamenu.cpp
+	<iostream>
+	"MesaMenu.h"
+	"MesaManager.h"
+
+1762063986 source:c:\users\usuario\downloads\cafe\cafeteria\mozo.cpp
 	<iostream>
 	<cstring>
 	"Mozo.h"
+	"ArchivoTurno.h"
 
-1761880553 source:c:\users\mati\downloads\tp cafeteria\stock.cpp
+1762063986 source:c:\users\usuario\downloads\cafe\cafeteria\mozomanager.cpp
+	<iostream>
+	<cstdio>
+	"MozoManager.h"
+
+1762063986 source:c:\users\usuario\downloads\cafe\cafeteria\mozomenu.cpp
+	<iostream>
+	"MozoMenu.h"
+	"MozoManager.h"
+
+1762068247 source:c:\users\usuario\downloads\cafe\cafeteria\stock.cpp
 	<iostream>
 	<iomanip>
 	<cstring>
 	"Stock.h"
 
-1761821238 source:c:\users\mati\downloads\tp cafeteria\turno.cpp
+1762063986 source:c:\users\usuario\downloads\cafe\cafeteria\turno.cpp
 	<iostream>
 	<cstring>
 	"Turno.h"
 
-1761881021 source:c:\users\mati\downloads\tp cafeteria\main.cpp
-	<iostream>
-	"ArchivoMozo.h"
-	"ArchivoCliente.h"
-	"ArchivoMesa.h"
-	"ArchivoMenu.h"
-	"ArchivoTurno.h"
-	"stock.h"
-
-1761880820 c:\users\mati\downloads\tp cafeteria\stock.h
-
-1761877983 source:c:\users\mati\downloads\todo tp programacion2\tp cafeteria\archivocliente.cpp
+1762063986 source:c:\users\usuario\downloads\cafe\cafeteria\turnomanager.cpp
 	<iostream>
 	<cstdio>
-	"ArchivoCliente.h"
+	"TurnoManager.h"
 
-1761763860 c:\users\mati\downloads\todo tp programacion2\tp cafeteria\archivocliente.h
-	"Cliente.h"
-	<cstdio>
+1762063986 source:c:\users\usuario\downloads\cafe\cafeteria\turnomenu.cpp
+	<iostream>
+	"TurnoMenu.h"
+	"TurnoManager.h"
 
-1761877833 c:\users\mati\downloads\todo tp programacion2\tp cafeteria\cliente.h
+1762068997 source:c:\users\usuario\downloads\cafe\cafeteria\venta.cpp
+	"Venta.h"
+
+1762064261 c:\users\usuario\downloads\cafe\cafeteria\venta.h
 	<iostream>
 	<cstring>
 	"Fecha.h"
 
-1761874804 c:\users\mati\downloads\todo tp programacion2\tp cafeteria\fecha.h
-	<iostream>
-
-1761770582 source:c:\users\mati\downloads\todo tp programacion2\tp cafeteria\archivomenu.cpp
+1762064710 source:c:\users\usuario\downloads\cafe\cafeteria\archivoventa.cpp
 	<iostream>
 	<cstdio>
-	"ArchivoMenu.h"
-
-1761766864 c:\users\mati\downloads\todo tp programacion2\tp cafeteria\archivomenu.h
-	"menu.h"
-
-1761766600 c:\users\mati\downloads\todo tp programacion2\tp cafeteria\menu.h
-
-1761422936 source:c:\users\mati\downloads\todo tp programacion2\tp cafeteria\archivomesa.cpp
+	"ArchivoVenta.h"
+	"ArchivoMozo.h"
 	"ArchivoMesa.h"
-	<iostream>
-	<cstdio>
-
-1761420026 c:\users\mati\downloads\todo tp programacion2\tp cafeteria\archivomesa.h
-	"Mesa.h"
-	<cstdio>
-
-1761419172 c:\users\mati\downloads\todo tp programacion2\tp cafeteria\mesa.h
-	<iostream>
-	<cstring>
-
-1761939087 source:c:\users\mati\downloads\todo tp programacion2\tp cafeteria\archivomozo.cpp
-	"ArchivoMozo.h"
-	<iostream>
-
-1761871402 c:\users\mati\downloads\todo tp programacion2\tp cafeteria\archivomozo.h
-	"Mozo.h"
-	<cstdio>
-
-1761876744 c:\users\mati\downloads\todo tp programacion2\tp cafeteria\mozo.h
-	"Fecha.h"
-
-1761883223 source:c:\users\mati\downloads\todo tp programacion2\tp cafeteria\archivoturno.cpp
-	<iostream>
-	<cstdio>
-	"ArchivoTurno.h"
-
-1761883279 c:\users\mati\downloads\todo tp programacion2\tp cafeteria\archivoturno.h
-	"Turno.h"
-
-1761821252 c:\users\mati\downloads\todo tp programacion2\tp cafeteria\turno.h
-
-1761877983 source:c:\users\mati\downloads\todo tp programacion2\tp cafeteria\cliente.cpp
-	<iostream>
-	<cstring>
-	"Cliente.h"
-	"Fecha.h"
-
-1761881021 source:c:\users\mati\downloads\todo tp programacion2\tp cafeteria\main.cpp
-	<iostream>
-	"ArchivoMozo.h"
 	"ArchivoCliente.h"
-	"ArchivoMesa.h"
-	"ArchivoMenu.h"
-	"ArchivoTurno.h"
-	"stock.h"
 
-1761880820 c:\users\mati\downloads\todo tp programacion2\tp cafeteria\stock.h
+1762072097 c:\users\usuario\downloads\cafe\cafeteria\archivoventa.h
+	"Venta.h"
 
-1761766788 source:c:\users\mati\downloads\todo tp programacion2\tp cafeteria\menu.cpp
+1762066312 source:c:\users\usuario\downloads\cafe\cafeteria\archivostock.cpp
 	<iostream>
-	<cstring>
-	"menu.h"
+	<cstdio>
+	"ArchivoStock.h"
 
-1761419172 source:c:\users\mati\downloads\todo tp programacion2\tp cafeteria\mesa.cpp
-	<iostream>
-	<cstring>
-	"Mesa.h"
-
-1761939084 source:c:\users\mati\downloads\todo tp programacion2\tp cafeteria\mozo.cpp
-	<iostream>
-	<cstring>
-	"Mozo.h"
-	"ArchivoTurno.h"
-
-1761880553 source:c:\users\mati\downloads\todo tp programacion2\tp cafeteria\stock.cpp
-	<iostream>
-	<iomanip>
-	<cstring>
+1762071821 c:\users\usuario\downloads\cafe\cafeteria\archivostock.h
 	"Stock.h"
+	<cstdio>
 
-1761821238 source:c:\users\mati\downloads\todo tp programacion2\tp cafeteria\turno.cpp
+1762072054 source:c:\users\usuario\downloads\cafe\cafeteria\stockmanager.cpp
 	<iostream>
-	<cstring>
-	"Turno.h"
+	<cstdio>
+	"StockManager.h"
+
+1762071295 c:\users\usuario\downloads\cafe\cafeteria\stockmanager.h
+	"ArchivoStock.h"
 

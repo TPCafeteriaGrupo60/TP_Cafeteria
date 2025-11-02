@@ -69,6 +69,6 @@ void Menu::Mostrar() const {
     cout << "Descripcion: " << descripcion << endl;
     cout << "Precio de venta: " << precioVenta << endl;
     cout << "Categoria: " << categoria << endl;
-    cout << "Activo: " << (activo ? "Sí" : "No") << endl;
-    cout << "Eliminado: " << (eliminado ? "Sí" : "No") << endl;
+    cout << "Activo: " << (activo ? "S " : "No") << endl;
+    cout << "Eliminado: " << (eliminado ? "S " : "No") << endl;
 }
