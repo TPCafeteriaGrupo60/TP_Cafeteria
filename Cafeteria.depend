@@ -82,14 +82,14 @@
 1762063986 c:\users\usuario\downloads\cafe\cafeteria\clientemenu.h
 	"ClienteManager.h"
 
-1762066707 source:c:\users\usuario\downloads\cafe\cafeteria\main.cpp
+1762098385 source:c:\users\usuario\downloads\cafe\cafeteria\main.cpp
 	<iostream>
 	"ClienteMenu.h"
 	"MenuMenu.h"
 	"MesaMenu.h"
 	"MozoMenu.h"
 	"TurnoMenu.h"
-	"StockManager.h"
+	"stock.h"
 	"ArchivoVenta.h"
 
 1762063986 c:\users\usuario\downloads\cafe\cafeteria\menumenu.h
@@ -187,15 +187,15 @@
 	"TurnoMenu.h"
 	"TurnoManager.h"
 
-1762068997 source:c:\users\usuario\downloads\cafe\cafeteria\venta.cpp
+1762098370 source:c:\users\usuario\downloads\cafe\cafeteria\venta.cpp
 	"Venta.h"
 
-1762064261 c:\users\usuario\downloads\cafe\cafeteria\venta.h
+1762098370 c:\users\usuario\downloads\cafe\cafeteria\venta.h
 	<iostream>
 	<cstring>
 	"Fecha.h"
 
-1762064710 source:c:\users\usuario\downloads\cafe\cafeteria\archivoventa.cpp
+1762098370 source:c:\users\usuario\downloads\cafe\cafeteria\archivoventa.cpp
 	<iostream>
 	<cstdio>
 	"ArchivoVenta.h"
@@ -203,7 +203,7 @@
 	"ArchivoMesa.h"
 	"ArchivoCliente.h"
 
-1762072097 c:\users\usuario\downloads\cafe\cafeteria\archivoventa.h
+1762098370 c:\users\usuario\downloads\cafe\cafeteria\archivoventa.h
 	"Venta.h"
 
 1762066312 source:c:\users\usuario\downloads\cafe\cafeteria\archivostock.cpp

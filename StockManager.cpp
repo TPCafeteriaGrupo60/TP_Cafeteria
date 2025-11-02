@@ -1,4 +1,4 @@
-#include <iostream>
+/*#include <iostream>
 #include <cstdio>
 #include "StockManager.h"
 
@@ -265,4 +265,183 @@ void StockManager::menuStock()
         }
     }
     while (opcion != 0);
+}
+
+*/
+
+
+
+#include <iostream>
+#include "StockManager.h"
+
+using namespace std;
+
+StockManager::StockManager(const char* nombreArchivo)
+    : archivo(nombreArchivo) { }
+
+bool StockManager::agregarStock()
+{
+    cout << "--- Agregar nuevo Producto ---\n";
+
+    int id = archivo.generarIdStock();
+    Stock s;
+    s.setIdProducto(id);
+    s.Cargar();
+
+    if (archivo.guardarStock(s))
+    {
+        cout << "Producto agregado correctamente!\n";
+        return true;
+    }
+    else
+    {
+        cout << "Error al agregar producto!\n";
+        return false;
+    }
+}
+
+bool StockManager::modificarStockPorId()
+{
+    int id;
+    cout << "ID del producto a modificar: ";
+    cin >> id;
+
+    int pos = archivo.buscarPosPorId(id);
+    if (pos == -1)
+    {
+        cout << "Producto no encontrado!\n";
+        return false;
+    }
+
+    Stock existente = archivo.leerStock(pos);
+    existente.Mostrar();
+
+    char opcion;
+    cout << "Desea modificar este producto? (s/n): ";
+    cin >> opcion;
+
+    if (opcion == 's' || opcion == 'S')
+    {
+        Stock modificado;
+        modificado.setIdProducto(id);
+        modificado.Cargar();
+
+        if (archivo.modificarStock(id, modificado))
+        {
+            cout << "Producto modificado correctamente!\n";
+            return true;
+        }
+        else
+        {
+            cout << "Error al modificar producto!\n";
+            return false;
+        }
+    }
+    return false;
+}
+
+bool StockManager::eliminarStockPorId()
+{
+    int id;
+    cout << "ID del producto a eliminar: ";
+    cin >> id;
+
+    int pos = archivo.buscarPosPorId(id);
+    if (pos == -1)
+    {
+        cout << "Producto no encontrado!\n";
+        return false;
+    }
+
+    Stock existente = archivo.leerStock(pos);
+    existente.Mostrar();
+
+    char opcion;
+    cout << "Esta seguro de eliminar este producto? (s/n): ";
+    cin >> opcion;
+
+    if (opcion == 's' || opcion == 'S')
+    {
+        if (archivo.eliminarStock(id))
+        {
+            cout << "Producto eliminado correctamente!\n";
+            return true;
+        }
+        else
+        {
+            cout << "Error al eliminar producto!\n";
+            return false;
+        }
+    }
+    return false;
+}
+
+void StockManager::listarStocks()
+{
+    cout << "\n--- Listado de Productos ---\n";
+    archivo.listarStocks();
+}
+
+void StockManager::alertaStockMinimo()
+{
+    cout << "\n--- Alertas de Stock Minimo ---\n";
+    archivo.alertaStockMinimo();
+}
+
+void StockManager::consultarStockPorId()
+{
+    int id;
+    cout << "ID del producto: ";
+    cin >> id;
+    archivo.consultarStock(id);
+}
+
+void StockManager::menuConsultas()
+{
+    int opcion;
+    do
+    {
+        system("cls");
+        cout << "CONSULTAS DE STOCK" << endl;
+        cout << "==================" << endl;
+        cout << "1 - CONSULTAR POR PRODUCTO (ID)" << endl;
+        cout << "2 - CONSULTAR POR CATEGORIA" << endl;
+        cout << "3 - CONSULTAR POR PRECIO" << endl;
+        cout << "4 - CONSULTAR POR NIVEL DE STOCK" << endl;
+        cout << "0 - VOLVER AL MENU STOCK" << endl;
+        cout << "==================" << endl;
+        cout << "OPCION: ";
+        cin >> opcion;
+
+        switch (opcion)
+        {
+        case 1:
+            system("cls");
+            consultarStockPorId();
+            system("pause");
+            break;
+        case 2:
+            system("cls");
+            archivo.consultarPorCategoria();
+            system("pause");
+            break;
+        case 3:
+            system("cls");
+            archivo.consultarPorPrecio();
+            system("pause");
+            break;
+        case 4:
+            system("cls");
+            archivo.consultarPorNivelStock();
+            system("pause");
+            break;
+        case 0:
+            cout << "Volviendo al menu stock..." << endl;
+            break;
+        default:
+            cout << "Opcion invalida!" << endl;
+            system("pause");
+            break;
+        }
+    } while (opcion != 0);
 }
