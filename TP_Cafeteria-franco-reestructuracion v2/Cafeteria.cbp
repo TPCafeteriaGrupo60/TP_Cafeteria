@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="ParaMozos" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/ParaMozos" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/ParaMozos" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="ArchivoCliente.cpp" />
+		<Unit filename="ArchivoCliente.h" />
+		<Unit filename="ArchivoMenu.cpp" />
+		<Unit filename="ArchivoMenu.h" />
+		<Unit filename="ArchivoMesa.cpp" />
+		<Unit filename="ArchivoMesa.h" />
+		<Unit filename="ArchivoMozo.cpp" />
+		<Unit filename="ArchivoMozo.h" />
+		<Unit filename="ArchivoTurno.cpp" />
+		<Unit filename="ArchivoTurno.h" />
+		<Unit filename="ArchivoVenta.cpp" />
+		<Unit filename="ArchivoVenta.h" />
+		<Unit filename="Cliente.cpp" />
+		<Unit filename="Cliente.h" />
+		<Unit filename="ClienteManager.cpp" />
+		<Unit filename="ClienteManager.h" />
+		<Unit filename="ClienteMenu.cpp" />
+		<Unit filename="ClienteMenu.h" />
+		<Unit filename="Fecha.h" />
+		<Unit filename="Menu.cpp" />
+		<Unit filename="Menu.h" />
+		<Unit filename="MenuManager.cpp" />
+		<Unit filename="MenuManager.h" />
+		<Unit filename="MenuMenu.cpp" />
+		<Unit filename="MenuMenu.h" />
+		<Unit filename="Mesa.cpp" />
+		<Unit filename="Mesa.h" />
+		<Unit filename="MesaManager.cpp" />
+		<Unit filename="MesaManager.h" />
+		<Unit filename="MesaMenu.cpp" />
+		<Unit filename="MesaMenu.h" />
+		<Unit filename="Mozo.cpp" />
+		<Unit filename="Mozo.h" />
+		<Unit filename="MozoManager.cpp" />
+		<Unit filename="MozoManager.h" />
+		<Unit filename="MozoMenu.cpp" />
+		<Unit filename="MozoMenu.h" />
+		<Unit filename="Stock.cpp" />
+		<Unit filename="Turno.cpp" />
+		<Unit filename="Turno.h" />
+		<Unit filename="TurnoManager.cpp" />
+		<Unit filename="TurnoManager.h" />
+		<Unit filename="TurnoMenu.cpp" />
+		<Unit filename="TurnoMenu.h" />
+		<Unit filename="Venta.cpp" />
+		<Unit filename="Venta.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="stock.h" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
