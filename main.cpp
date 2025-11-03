@@ -1,23 +1,10 @@
-
-
-
 #include <iostream>
 
-///#include "ArchivoCliente.h"
 #include "ClienteMenu.h"
-
-///#include "ArchivoMenu.h"
 #include "MenuMenu.h"
-
-///#include "ArchivoMesa.h"
 #include "MesaMenu.h"
-
-///#include "ArchivoMozo.h"
 #include "MozoMenu.h"
-
-///#include "ArchivoTurno.h"
 #include "TurnoMenu.h"
-
 #include "StockMenu.h"
 
 #include "ArchivoVenta.h"
@@ -26,22 +13,15 @@ using namespace std;
 
 int main()
 {
-    ///ArchivoMenu menuMenus("Menus.dat");
-   MenuMenu menuMenus("Menus.dat");
-    ///ArchivoCliente menuClientes("Clientes.dat");
     ClienteMenu menuClientes("Clientes.dat");
-    ///ArchivoMesa menuMesas("Mesas.dat");
-   MesaMenu menuMesas("Mesas.dat");
-    ///ArchivoMozo menuMozos("Mozos.dat");
+    MenuMenu menuMenus("Menus.dat");
+    MesaMenu menuMesas("Mesas.dat");
     MozoMenu menuMozos("Mozos.dat");
-    ///ArchivoTurno menuTurnos("Turnos.dat");
-    TurnoMenu menuTurnos("Turnos.dat");
-
     StockMenu stockMenu("stock.dat");
+    TurnoMenu menuTurnos("Turnos.dat");
 
     ///ArchivoVenta menuVentas("Ventas.dat");
     ArchivoVenta archivoVenta("Ventas.dat");
-
 
     Stock Stock;
 
@@ -64,7 +44,6 @@ int main()
         {
             case 1:
                 system("cls");
-                //menuMozos.MenuMozos();
                menuMozos.mostrarMenu();
                 break;
             case 2:
@@ -73,7 +52,6 @@ int main()
                 break;
             case 3:
                 system("cls");
-                //menuMesas.MenuMesas();
                 menuMesas.mostrarMenu();
                break;
             case 4:
@@ -81,17 +59,14 @@ int main()
                 break;
             case 5:
                 system("cls");
-                //menuClientes.MenuClientes();
                menuClientes.mostrarMenu();
                 break;
             case 6:
                 system("cls");
-                //menuMenus.MenuMenus();
                menuMenus.mostrarMenu();
                 break;
             case 7:
                 system("cls");
-                //menuTurnos.MenuTurnos();
                 menuTurnos.mostrar();
                 break;
             default:
