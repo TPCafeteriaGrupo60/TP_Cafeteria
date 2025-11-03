@@ -32,13 +32,31 @@ void VentaManager::listarVentas() {
     archivo.listarVentas();
 }
 
+/// Buscar Venta por ID
+bool VentaManager::buscarVentaPorId() {
+    int id;
+    cout << "Ingrese ID a buscar: ";
+    cin >> id;
+
+    int pos = archivo.buscarVentaPorId(id);
+    if (pos == -1) {
+        cout << "No se encontro una Venta con ese ID.\n";
+        return false;
+    }
+
+    Venta v;
+    archivo.leerVenta(v, pos);
+    v.mostrar();
+    return true;
+}
+
 /// Modificar Venta
 bool VentaManager::modificarVentaPorId() {
     int id;
     cout << "Ingrese ID a modificar: ";
     cin >> id;
 
-    int pos = archivo.buscarPosPorId(id);
+    int pos = archivo.buscarVentaPorId(id);
     if (pos == -1) {
         cout << "No se encontro una Venta con ese ID.\n";
         return false;
@@ -49,7 +67,7 @@ bool VentaManager::modificarVentaPorId() {
     nuevaVenta.cargar();
     nuevaVenta.setIdVenta(id);
 
-    if (archivo.modificarVenta(pos, nuevaVenta)) {
+    if (archivo.modificarVenta(nuevaVenta, pos)) {
         cout << "Venta modificada con exito.\n";
         return true;
     } else {
@@ -64,7 +82,7 @@ bool VentaManager::eliminarVentaPorId() {
     cout << "Ingrese ID a eliminar: ";
     cin >> id;
 
-    int pos = archivo.buscarPosPorId(id);
+    int pos = archivo.buscarVentaPorId(id);
     if (pos == -1) {
         cout << "No se encontro una Venta con ese ID.\n";
         return false;
@@ -79,6 +97,7 @@ bool VentaManager::eliminarVentaPorId() {
     }
 }
 
+/*
 void VentaManager::menuVentas() {
     int opcion;
     do {
@@ -122,3 +141,4 @@ void VentaManager::menuVentas() {
         }
     } while (opcion != 0);
 }
+*/

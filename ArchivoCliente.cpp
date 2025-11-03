@@ -33,18 +33,7 @@ int ArchivoCliente::contarCliente()
     return bytes / sizeof(Cliente);
 }
 
-
-Cliente ArchivoCliente::buscarClientePorId(int id) {
-    int cant = contarCliente();
-    for (int i = 0; i < cant; i++) {
-        Cliente reg = leerCliente(i);
-        if (reg.getIdCliente() == id && !reg.getEliminado())
-            return reg;
-    }
-    return Cliente();
-}
-
-int ArchivoCliente::buscarPosPorId(int id) {
+int ArchivoCliente::buscarClientePorId(int id) {
     int cant = contarCliente();
     for (int i = 0; i < cant; i++) {
         Cliente reg = leerCliente(i);
@@ -54,7 +43,6 @@ int ArchivoCliente::buscarPosPorId(int id) {
     return -1;
 }
 
-
 bool ArchivoCliente::modificarCliente(int pos, const Cliente& modificado) {
     FILE* p = fopen(nombreArchivo, "rb+");
     if (p == nullptr) return false;
@@ -63,7 +51,6 @@ bool ArchivoCliente::modificarCliente(int pos, const Cliente& modificado) {
     fclose(p);
     return ok;
 }
-
 
 bool ArchivoCliente::eliminarCliente(int id)
 {

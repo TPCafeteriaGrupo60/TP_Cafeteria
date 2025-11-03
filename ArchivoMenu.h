@@ -13,8 +13,7 @@ public:
     bool guardarMenu(const Menu& reg);
     Menu leerMenu(int pos);
     int contarMenus();
-    Menu buscarMenuPorId(int id);
-    int buscarPosPorId(int id);
+    int buscarMenuPorId(int id);
     bool modificarMenu(int pos, const Menu& reg);
     bool eliminarMenu(int id);
     void listarMenus();

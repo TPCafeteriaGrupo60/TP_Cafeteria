@@ -10,16 +10,20 @@ private:
 
 public:
     ArchivoVenta(const char* n ="Ventas.dat");
+
     bool guardarVenta(Venta& reg);
     bool leerVenta(Venta&, int pos);
     int contarVentas();
     int buscarVentaPorId(int id);
     void listarVentas();
     void cargarVenta();
-    void menuVentas();
     bool modificarVenta(Venta &venta, int pos);
     int generarIdVenta();
 
+    bool eliminarVenta(int pos); /// agregado
+
+
+    ///void menuVentas();
 } ;
 
 

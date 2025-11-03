@@ -11,9 +11,11 @@ public:
     VentaManager(const char* nombreArchivo);
     bool agregarVenta();
     void listarVentas();
+    bool buscarVentaPorId();
     bool modificarVentaPorId();
     bool eliminarVentaPorId();
-    void menuVentas();
+
+    ///void menuVentas();
 };
 
-#endif // VENTAMANAGER_H_INCLUDED
+#endif

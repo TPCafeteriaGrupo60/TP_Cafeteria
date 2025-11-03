@@ -34,7 +34,7 @@ bool ClienteManager::modificarClientePorId() {
     cout << "Ingrese ID a modificar: ";
     cin >> id;
 
-    int pos = archivo.buscarPosPorId(id);
+    int pos = archivo.buscarClientePorId(id);
     if (pos == -1) {
         cout << "No se encontro un Cliente con ese ID.\n";
         return false;
@@ -59,7 +59,7 @@ bool ClienteManager::eliminarClientePorId() {
     cout << "Ingrese ID a eliminar: ";
     cin >> id;
 
-    int pos = archivo.buscarPosPorId(id);
+    int pos = archivo.buscarClientePorId(id);
     if (pos == -1) {
         cout << "No se encontro un Cliente con ese ID.\n";
         return false;

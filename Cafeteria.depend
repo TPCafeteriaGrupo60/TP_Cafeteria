@@ -223,3 +223,272 @@
 1762071295 c:\users\usuario\downloads\cafe\cafeteria\stockmanager.h
 	"ArchivoStock.h"
 
+1762189356 source:c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\archivocliente.cpp
+	<iostream>
+	<cstdio>
+	"ArchivoCliente.h"
+
+1762189333 c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\archivocliente.h
+	"Cliente.h"
+	<cstdio>
+
+1762178160 c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\cliente.h
+	<iostream>
+	<cstring>
+	"Fecha.h"
+
+1762178160 c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\fecha.h
+	<iostream>
+
+1762189554 source:c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\archivomenu.cpp
+	<iostream>
+	<cstdio>
+	"ArchivoMenu.h"
+
+1762189571 c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\archivomenu.h
+	"menu.h"
+
+1762178160 c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\menu.h
+
+1762189658 source:c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\archivomesa.cpp
+	<iostream>
+	<cstdio>
+	"ArchivoMesa.h"
+
+1762189644 c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\archivomesa.h
+	"Mesa.h"
+	<cstdio>
+
+1762178160 c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\mesa.h
+	<iostream>
+	<cstring>
+
+1762189757 source:c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\archivomozo.cpp
+	"ArchivoMozo.h"
+	<iostream>
+
+1762189765 c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\archivomozo.h
+	"Mozo.h"
+	<cstdio>
+
+1762178160 c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\mozo.h
+	"Fecha.h"
+
+1762178160 source:c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\archivostock.cpp
+	<cstdio>
+	"ArchivoStock.h"
+	<iostream>
+	<cstring>
+	"ArchivoStock.h"
+
+1762178160 c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\archivostock.h
+	"Stock.h"
+	<cstdio>
+	"Stock.h"
+	<cstdio>
+
+1762178160 c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\stock.h
+	<iostream>
+	<cstring>
+
+1762189888 source:c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\archivoturno.cpp
+	<iostream>
+	<cstdio>
+	"ArchivoTurno.h"
+
+1762189881 c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\archivoturno.h
+	"Turno.h"
+
+1762178160 c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\turno.h
+
+1762189748 source:c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\archivoventa.cpp
+	<iostream>
+	<cstdio>
+	"ArchivoVenta.h"
+	"ArchivoMozo.h"
+	"ArchivoMesa.h"
+	"ArchivoCliente.h"
+
+1762187823 c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\archivoventa.h
+	"Venta.h"
+
+1762178160 c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\venta.h
+	<iostream>
+	<cstring>
+	"Fecha.h"
+
+1762178160 source:c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\cliente.cpp
+	<iostream>
+	<cstring>
+	"Cliente.h"
+	"Fecha.h"
+
+1762189373 source:c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\clientemanager.cpp
+	<iostream>
+	<cstdio>
+	"ClienteManager.h"
+
+1762178160 c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\clientemanager.h
+	"ArchivoCliente.h"
+
+1762178160 source:c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\clientemenu.cpp
+	<iostream>
+	"ClienteMenu.h"
+	"ClienteManager.h"
+
+1762178160 c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\clientemenu.h
+	"ClienteManager.h"
+
+1762185464 source:c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\main.cpp
+	<iostream>
+	"ClienteMenu.h"
+	"MenuMenu.h"
+	"MesaMenu.h"
+	"MozoMenu.h"
+	"TurnoMenu.h"
+	"StockMenu.h"
+	"VentaMenu.h"
+
+1762178160 c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\menumenu.h
+	"MenuManager.h"
+
+1762178160 c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\menumanager.h
+	"ArchivoMenu.h"
+
+1762178160 c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\mesamenu.h
+	"MesaManager.h"
+
+1762178160 c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\mesamanager.h
+	"ArchivoMesa.h"
+
+1762178160 c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\mozomenu.h
+	"MozoManager.h"
+
+1762178160 c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\mozomanager.h
+	"ArchivoMozo.h"
+
+1762178160 c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\turnomenu.h
+	"TurnoManager.h"
+
+1762178160 c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\turnomanager.h
+	"ArchivoTurno.h"
+
+1762178160 c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\stockmenu.h
+	"StockManager.h"
+
+1762178160 c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\stockmanager.h
+	"ArchivoStock.h"
+	"ArchivoStock.h"
+
+1762178160 source:c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\menu.cpp
+	<iostream>
+	<cstring>
+	"menu.h"
+
+1762189563 source:c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\menumanager.cpp
+	<iostream>
+	<cstdio>
+	"MenuManager.h"
+
+1762178160 source:c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\menumenu.cpp
+	<iostream>
+	"MenuMenu.h"
+	"MenuManager.h"
+
+1762178160 source:c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\mesa.cpp
+	<iostream>
+	<cstring>
+	"Mesa.h"
+
+1762189670 source:c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\mesamanager.cpp
+	<iostream>
+	<cstdio>
+	"MesaManager.h"
+
+1762178160 source:c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\mesamenu.cpp
+	<iostream>
+	"MesaMenu.h"
+	"MesaManager.h"
+
+1762189891 source:c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\mozo.cpp
+	<iostream>
+	<cstring>
+	"Mozo.h"
+	"ArchivoTurno.h"
+
+1762178160 source:c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\mozomanager.cpp
+	<iostream>
+	<cstdio>
+	"MozoManager.h"
+
+1762178160 source:c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\mozomenu.cpp
+	<iostream>
+	"MozoMenu.h"
+	"MozoManager.h"
+
+1762178160 source:c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\stock.cpp
+	<iomanip>
+	<cstring>
+	"Stock.h"
+	<iostream>
+	<iomanip>
+	<cstring>
+	"Stock.h"
+
+1762178160 source:c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\stockmanager.cpp
+	<cstdio>
+	"StockManager.h"
+	<iostream>
+	"StockManager.h"
+
+1762178160 source:c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\stockmenu.cpp
+	<iostream>
+	"StockMenu.h"
+
+1762178160 source:c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\turno.cpp
+	<iostream>
+	<cstring>
+	"Turno.h"
+
+1762178160 source:c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\turnomanager.cpp
+	<iostream>
+	<cstdio>
+	"TurnoManager.h"
+
+1762184699 source:c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\turnomenu.cpp
+	<iostream>
+	"TurnoMenu.h"
+	"TurnoManager.h"
+
+1762186801 source:c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\venta.cpp
+	"Venta.h"
+
+1762188870 source:c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\app.cpp
+	<iostream>
+	"App.h"
+
+1762188596 c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\app.h
+	"ClienteMenu.h"
+	"MenuMenu.h"
+	"MesaMenu.h"
+	"MozoMenu.h"
+	"TurnoMenu.h"
+	"StockMenu.h"
+	"VentaMenu.h"
+
+1762185677 source:c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\ventamenu.cpp
+	<iostream>
+	"VentaMenu.h"
+	"VentaManager.h"
+
+1762177270 c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\ventamenu.h
+	"VentaManager.h"
+
+1762185095 c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\ventamanager.h
+	"ArchivoVenta.h"
+
+1762186755 source:c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\ventamanager.cpp
+	<iostream>
+	<cstdio>
+	"VentaManager.h"
+

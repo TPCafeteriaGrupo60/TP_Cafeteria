@@ -31,18 +31,7 @@ int ArchivoMenu::contarMenus() {
     return bytes / sizeof(Menu);
 }
 
-Menu ArchivoMenu::buscarMenuPorId(int id) {
-    int cant = contarMenus();
-    for (int i = 0; i < cant; i++) {
-        Menu reg = leerMenu(i);
-        if (reg.getIdMenu() == id && !reg.getEliminado()) {
-            return reg;
-        }
-    }
-    return Menu();
-}
-
-int ArchivoMenu::buscarPosPorId(int id) {
+int ArchivoMenu::buscarMenuPorId(int id) {
     int cant = contarMenus();
     for (int i = 0; i < cant; i++) {
         Menu reg = leerMenu(i);

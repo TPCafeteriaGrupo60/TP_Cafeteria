@@ -7,7 +7,8 @@
 #include "TurnoMenu.h"
 #include "StockMenu.h"
 
-#include "ArchivoVenta.h"
+///#include "ArchivoVenta.h"
+#include "VentaMenu.h"
 
 using namespace std;
 
@@ -21,7 +22,8 @@ int main()
     TurnoMenu menuTurnos("Turnos.dat");
 
     ///ArchivoVenta menuVentas("Ventas.dat");
-    ArchivoVenta archivoVenta("Ventas.dat");
+    //ArchivoVenta archivoVenta("Ventas.dat");
+    VentaMenu menuVentas("Ventas.dat");
 
     Stock Stock;
 
@@ -55,7 +57,9 @@ int main()
                 menuMesas.mostrarMenu();
                break;
             case 4:
-                archivoVenta.menuVentas();
+                system("cls");
+                ///archivoVenta.mostrarMenu();
+                menuVentas.mostrarMenu();
                 break;
             case 5:
                 system("cls");

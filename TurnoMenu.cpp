@@ -1,7 +1,6 @@
 #include <iostream>
 #include "TurnoMenu.h"
 #include "TurnoManager.h"
-
 using namespace std;
 
 TurnoMenu::TurnoMenu(const char* nombreArchivo)

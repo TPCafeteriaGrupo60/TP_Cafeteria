@@ -38,29 +38,31 @@ Venta::Venta(){
      void Venta::setTotal(float t) { total = t; }
     void Venta::setEliminado(bool e) { eliminado = e; }
 
-// void Venta::cargar() {
-//    cout << "ID de venta: ";
-//    cin >> idVenta;
-//    cout << "Fecha:" << endl;
-//    fecha.Cargar();
-//    cout << "Hora (HH:MM): ";
-//    cin >> hora;
-//     cout << "Ingrese ID del mozo: ";
-//    cin >> idMozo;
-//
-//    cout << "Ingrese ID de la mesa: ";
-//    cin >> idMesa;
-//
-//    cout << "Ingrese ID del cliente: ";
-//    cin >> idCliente;
-//
-//    cout << "Metodo de Pago: " << (metodoPago == 1 ? "Efectivo" : "Tarjeta") << endl;
-//    cout << "Estado: " << (estado == 1 ? "Activa" : "Inactiva") << endl;
-//
-//    cout << "Ingrese total de la venta: $";
-//    cin >> total;
-//    eliminado = false;
-//}
+
+ void Venta::cargar() {
+    cout << "ID de venta: ";
+    cin >> idVenta;
+    cout << "Fecha:" << endl;
+    fecha.Cargar();
+    cout << "Hora (HH:MM): ";
+    cin >> hora;
+     cout << "Ingrese ID del mozo: ";
+    cin >> idMozo;
+
+    cout << "Ingrese ID de la mesa: ";
+    cin >> idMesa;
+
+    cout << "Ingrese ID del cliente: ";
+    cin >> idCliente;
+
+    cout << "Metodo de Pago: " << (metodoPago == 1 ? "Efectivo" : "Tarjeta") << endl;
+    cout << "Estado: " << (estado == 1 ? "Activa" : "Inactiva") << endl;
+
+    cout << "Ingrese total de la venta: $";
+    cin >> total;
+    eliminado = false;
+}
+
 
 void Venta::mostrar() {
     if (!eliminado) {

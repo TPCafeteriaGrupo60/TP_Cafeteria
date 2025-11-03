@@ -66,6 +66,7 @@ int ArchivoVenta::buscarVentaPorId(int id)
     }
     return -1;
 }
+
 int ArchivoVenta::generarIdVenta()
 {
     FILE* p = fopen(nombreArchivo, "rb");
@@ -187,6 +188,31 @@ void ArchivoVenta::cargarVenta()
     }
 }
 
+
+/// agregado
+bool ArchivoVenta::eliminarVenta(int id) {
+    FILE* p = fopen(nombreArchivo, "rb+");
+    if (!p) return false;
+
+    Venta reg;
+    int pos = 0;
+    while (fread(&reg, sizeof(Venta), 1, p) == 1) {
+        if (reg.getIdVenta() == id) {
+            reg.setEliminado(true);
+            fseek(p, pos * sizeof(Venta), SEEK_SET);
+            fwrite(&reg, sizeof(Venta), 1, p);
+            fclose(p);
+            return true;
+        }
+        pos++;
+    }
+
+    fclose(p);
+    return false;
+}
+
+
+/*
 void ArchivoVenta::menuVentas()
 {
     int opcion = 0;
@@ -272,3 +298,4 @@ void ArchivoVenta::menuVentas()
         }
     }
 }
+*/

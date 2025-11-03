@@ -14,11 +14,10 @@ public:
     bool guardarCliente(const Cliente& reg);
     Cliente leerCliente(int pos);
     int contarCliente();
-    Cliente buscarClientePorId(int id);
-    int buscarPosPorId(int id);
+    int buscarClientePorId(int id);
+    void listarClientes();
     bool modificarCliente(int id, const Cliente& modificado);
     bool eliminarCliente(int id);
-    void listarClientes();
 };
 
 #endif

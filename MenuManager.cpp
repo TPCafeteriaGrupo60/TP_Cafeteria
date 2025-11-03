@@ -34,7 +34,7 @@ bool MenuManager::modificarMenuPorId() {
     cout << "Ingrese ID a modificar: ";
     cin >> id;
 
-    int pos = archivo.buscarPosPorId(id);
+    int pos = archivo.buscarMenuPorId(id);
     if (pos == -1) {
         cout << "No se encontro un Menu con ese ID.\n";
         return false;
@@ -59,7 +59,7 @@ bool MenuManager::eliminarMenuPorId() {
     cout << "Ingrese ID a eliminar: ";
     cin >> id;
 
-    int pos = archivo.buscarPosPorId(id);
+    int pos = archivo.buscarMenuPorId(id);
     if (pos == -1) {
         cout << "No se encontro un Menu con ese ID.\n";
         return false;

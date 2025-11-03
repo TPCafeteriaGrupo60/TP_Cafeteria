@@ -31,7 +31,7 @@ Mesa ArchivoMesa::leerMesa(int pos) {
     return reg;
 }
 
-int ArchivoMesa::buscarPosPorId(int id) {
+int ArchivoMesa::buscarMesaPorId(int id) {
     int cant = contarMesas();
     for (int i = 0; i < cant; i++) {
         Mesa reg = leerMesa(i);
@@ -41,18 +41,6 @@ int ArchivoMesa::buscarPosPorId(int id) {
     }
     return -1;
 }
-
-Mesa ArchivoMesa::buscarMesaPorId(int id) {
-    int cant = contarMesas();
-    for (int i = 0; i < cant; i++) {
-        Mesa reg = leerMesa(i);
-        if (reg.getIdMesa() == id && !reg.getEliminado()) {
-            return reg;
-        }
-    }
-    return Mesa();
-}
-
 
 void ArchivoMesa::listarMesas() {
     int cant = contarMesas();

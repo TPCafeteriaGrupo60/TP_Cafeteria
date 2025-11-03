@@ -1,5 +1,6 @@
 #include <iostream>
 #include "VentaMenu.h"
+#include "VentaManager.h"
 
 using namespace std;
 

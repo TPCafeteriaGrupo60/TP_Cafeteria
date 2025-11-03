@@ -34,7 +34,7 @@ bool MesaManager::modificarMesaPorId() {
     cout << "Ingrese ID a modificar: ";
     cin >> id;
 
-    int pos = archivo.buscarPosPorId(id);
+    int pos = archivo.buscarMesaPorId(id);
     if (pos == -1) {
         cout << "No se encontro un Mesa con ese ID.\n";
         return false;
@@ -59,7 +59,7 @@ bool MesaManager::eliminarMesaPorId() {
     cout << "Ingrese ID a eliminar: ";
     cin >> id;
 
-    int pos = archivo.buscarPosPorId(id);
+    int pos = archivo.buscarMesaPorId(id);
     if (pos == -1) {
         cout << "No se encontro un Mesa con ese ID.\n";
         return false;
