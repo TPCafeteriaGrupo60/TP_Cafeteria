@@ -18,31 +18,30 @@ void MenuMenu:: mostrarMenu()
         opcion = seleccionOpcion();
         system("cls");
         ejecutarOpcion(opcion);
-        system("pause");
     }while (opcion != 0);
 }
 
 void MenuMenu:: mostrarOpciones(){
 
-    cout << "--- Menu Menus ---" << endl;
+    cout << "---- Menu Menus ----" << endl;
     cout << "1. Agregar Menu" << endl;
     cout << "2. Listar Menus" << endl;
     cout << "3. Modificar Menu" << endl;
     cout << "4. Eliminar Menu" << endl;
-    cout << "0. Salir" << endl;
+    cout << "0. Volver" << endl;
 }
 
 int MenuMenu:: seleccionOpcion(){
 
     int opcion;
     mostrarOpciones();
-    cout << "-------------------" << endl;
-    cout << "Ingrese opcion: ";
+    cout << "------------------------" << endl;
+    cout << "Seleccione una opcion: ";
     cin >> opcion;
 
     while (opcion < 0 || opcion > _cantidadOpciones){
-        cout << "Opcion incorrecta..." << endl;
-        cout << "Ingrese opcion: ";
+        cout << "\nOpcion incorrecta...\n" << endl;
+        cout << "Seleccione una opcion: ";
         cin >> opcion;
     }
 

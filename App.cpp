@@ -3,9 +3,17 @@
 
 using namespace std;
 
-/*
-App::App(const char* nombreArchivo)
-    : _VentaManager(nombreArchivo), _cantidadOpciones(7) {}
+App::App() :
+    menuClientes("Clientes.dat"),
+    menuMenus("Menus.dat"),
+    menuMesas("Mesas.dat"),
+    menuMozos("Mozos.dat"),
+    menuStock("stock.dat"),
+    menuTurnos("Turnos.dat"),
+    menuVentas("Ventas.dat")
+{
+    _cantidadOpciones = 7;
+}
 
 void App::run() {
     int opcion ;
@@ -27,57 +35,37 @@ void App::mostrarOpciones() {
     cout<< "5. Clientes"<<endl;
     cout<< "6. Menus a la Venta"<<endl;
     cout<< "7. Turnos de Atencion"<<endl;
-    cout<< "------------------------" <<endl;
-    cout<<"Elegir Opcion: ";
+    cout<< "0. Salir"<<endl;
 }
 
 int App::seleccionOpcion() {
+
     int opcion;
     mostrarOpciones();
+    cout<< "------------------------" <<endl;
     cout << "Seleccione una opcion: ";
     cin >> opcion;
 
     while (opcion < 0 || opcion > _cantidadOpciones) {
-        cout << "Opcion incorrecta..." << endl;
+        cout << "\nOpcion incorrecta...\n" << endl;
         cout << "Seleccione una opcion: ";
         cin >> opcion;
     }
+
     return opcion;
 }
 
 void App::ejecutarOpcion(int opcion) {
-    switch(opcion){
-        case 1:
-            system("cls");
-            menuMozos.mostrarMenu();
-            break;
-        case 2:
-            system("cls");
-            stockMenu.mostrarMenu();
-            break;
-        case 3:
-            system("cls");
-            menuMesas.mostrarMenu();
-            break;
-        case 4:
-            system("cls");
-            ///archivoVenta.mostrarMenu();
-            menuVentas.mostrarMenu();
-            break;
-        case 5:
-            system("cls");
-            menuClientes.mostrarMenu();
-            break;
-        case 6:
-            system("cls");
-            menuMenus.mostrarMenu();
-            break;
-        case 7:
-            system("cls");
-            menuTurnos.mostrar();
-            break;
-        default:
-            cout << "Opcion invalida!" << endl;
+
+    switch (opcion) {
+        case 1: menuMozos.mostrarMenu(); break;
+        case 2: menuStock.mostrarMenu(); break;
+        case 3: menuMesas.mostrarMenu(); break;
+        case 4: menuVentas.mostrarMenu(); break;
+        case 5: menuClientes.mostrarMenu(); break;
+        case 6: menuMenus.mostrarMenu(); break;
+        case 7: menuTurnos.mostrarMenu(); break;
+        case 0: cout << "Saliendo del sistema...\n"; break;
+        default: cout << "Opcion invalida. Intente nuevamente.\n"; break;
     }
 }
-*/

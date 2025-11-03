@@ -14,35 +14,33 @@ void StockMenu::mostrarMenu()
         opcion = seleccionOpcion();
         system("cls");
         ejecutarOpcion(opcion);
-        system("pause");
     } while (opcion != 0);
 }
 
 void StockMenu::mostrarOpciones()
 {
-    cout << "STOCK" << endl;
-    cout << "---" << endl;
-    cout << "1 - AGREGAR PRODUCTO" << endl;
-    cout << "2 - MODIFICAR PRODUCTO" << endl;
-    cout << "3 - ELIMINAR PRODUCTO" << endl;
-    cout << "4 - LISTAR PRODUCTOS" << endl;
-    cout << "5 - CONSULTAS DE STOCK" << endl;
-    cout << "6 - ALERTA DE STOCK MINIMO" << endl;
-    cout << "0 - VOLVER" << endl;
-    cout << "---" << endl;
+    cout << "---- Menu Stock ----" << endl;
+    cout << "1 - Agregar Producto" << endl;
+    cout << "2 - Modificar Producto" << endl;
+    cout << "3 - Eliminar Producto" << endl;
+    cout << "4 - Llistar Productos" << endl;
+    cout << "5 - Consultas de Stock" << endl;
+    cout << "6 - Alerta de Stock Minimo" << endl;
+    cout << "0 - Volver" << endl;
 }
 
 int StockMenu::seleccionOpcion()
 {
     int opcion;
     mostrarOpciones();
-    cout << "OPCION: ";
+    cout << "------------------------" << endl;
+    cout << "Seleccione una opcion: ";
     cin >> opcion;
 
     while (opcion < 0 || opcion > _cantidadOpciones)
     {
-        cout << "Opcion incorrecta..." << endl;
-        cout << "OPCION: ";
+        cout << "\nOpcion incorrecta...\n" << endl;
+        cout << "Seleccione una opcion: ";
         cin >> opcion;
     }
     return opcion;

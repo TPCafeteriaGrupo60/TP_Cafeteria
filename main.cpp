@@ -1,5 +1,17 @@
 #include <iostream>
+#include "App.h"
 
+using namespace std;
+
+int main()
+{
+    App app;
+    app.run();
+
+    return 0;
+}
+
+/*
 #include "ClienteMenu.h"
 #include "MenuMenu.h"
 #include "MesaMenu.h"
@@ -46,7 +58,7 @@ int main()
         {
             case 1:
                 system("cls");
-               menuMozos.mostrarMenu();
+                menuMozos.mostrarMenu();
                 break;
             case 2:
                 system("cls");
@@ -55,7 +67,7 @@ int main()
             case 3:
                 system("cls");
                 menuMesas.mostrarMenu();
-               break;
+                break;
             case 4:
                 system("cls");
                 ///archivoVenta.mostrarMenu();
@@ -63,11 +75,11 @@ int main()
                 break;
             case 5:
                 system("cls");
-               menuClientes.mostrarMenu();
+                menuClientes.mostrarMenu();
                 break;
             case 6:
                 system("cls");
-               menuMenus.mostrarMenu();
+                menuMenus.mostrarMenu();
                 break;
             case 7:
                 system("cls");
@@ -78,6 +90,5 @@ int main()
         }
 
     } while(opcion != 8);
-
-    return 0;
 }
+*/

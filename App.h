@@ -7,14 +7,13 @@
 #include "MozoMenu.h"
 #include "TurnoMenu.h"
 #include "StockMenu.h"
-
-///#include "ArchivoVenta.h"
 #include "VentaMenu.h"
 
 class App
 {
 
 public:
+    App();
     void run();
 
 protected:
@@ -25,7 +24,13 @@ protected:
 private:
     int _cantidadOpciones;
 
+    ClienteMenu menuClientes;
+    MenuMenu menuMenus;
+    MesaMenu menuMesas;
+    MozoMenu menuMozos;
+    StockMenu menuStock;
+    TurnoMenu menuTurnos;
+    VentaMenu menuVentas;
 };
 
 #endif
-

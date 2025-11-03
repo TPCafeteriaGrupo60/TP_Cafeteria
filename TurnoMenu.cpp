@@ -8,7 +8,7 @@ TurnoMenu::TurnoMenu(const char* nombreArchivo)
 {
 }
 
-void TurnoMenu:: mostrar()
+void TurnoMenu:: mostrarMenu()
 {
     int opcion;
 
@@ -17,31 +17,30 @@ void TurnoMenu:: mostrar()
         opcion = seleccionOpcion();
         system("cls");
         ejecutarOpcion(opcion);
-        system("pause");
     }while (opcion != 0);
 }
 
 void TurnoMenu:: mostrarOpciones(){
 
-    cout << "--- Menu Turnos ---" << endl;
+    cout << "---- Menu Turnos ----" << endl;
     cout << "1. Agregar turno" << endl;
     cout << "2. Listar turnos" << endl;
     cout << "3. Modificar turno" << endl;
     cout << "4. Eliminar turno" << endl;
-    cout << "0. Salir" << endl;
+    cout << "0. Volver" << endl;
 }
 
 int TurnoMenu:: seleccionOpcion(){
 
     int opcion;
     mostrarOpciones();
-    cout << "-------------------" << endl;
-    cout << "Ingrese opcion: ";
+    cout << "------------------------" << endl;
+    cout << "Seleccione una opcion: ";
     cin >> opcion;
 
     while (opcion < 0 || opcion > _cantidadOpciones){
-        cout << "Opcion incorrecta..." << endl;
-        cout << "Ingrese opcion: ";
+        cout << "\nOpcion incorrecta...\n" << endl;
+        cout << "Seleccione una opcion: ";
         cin >> opcion;
     }
 

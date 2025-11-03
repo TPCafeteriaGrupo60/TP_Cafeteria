@@ -331,7 +331,7 @@
 1762178160 c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\clientemanager.h
 	"ArchivoCliente.h"
 
-1762178160 source:c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\clientemenu.cpp
+1762207150 source:c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\clientemenu.cpp
 	<iostream>
 	"ClienteMenu.h"
 	"ClienteManager.h"
@@ -339,8 +339,9 @@
 1762178160 c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\clientemenu.h
 	"ClienteManager.h"
 
-1762185464 source:c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\main.cpp
+1762207160 source:c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\main.cpp
 	<iostream>
+	"App.h"
 	"ClienteMenu.h"
 	"MenuMenu.h"
 	"MesaMenu.h"
@@ -367,7 +368,7 @@
 1762178160 c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\mozomanager.h
 	"ArchivoMozo.h"
 
-1762178160 c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\turnomenu.h
+1762203926 c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\turnomenu.h
 	"TurnoManager.h"
 
 1762178160 c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\turnomanager.h
@@ -390,7 +391,7 @@
 	<cstdio>
 	"MenuManager.h"
 
-1762178160 source:c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\menumenu.cpp
+1762207141 source:c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\menumenu.cpp
 	<iostream>
 	"MenuMenu.h"
 	"MenuManager.h"
@@ -405,7 +406,7 @@
 	<cstdio>
 	"MesaManager.h"
 
-1762178160 source:c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\mesamenu.cpp
+1762207135 source:c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\mesamenu.cpp
 	<iostream>
 	"MesaMenu.h"
 	"MesaManager.h"
@@ -421,7 +422,7 @@
 	<cstdio>
 	"MozoManager.h"
 
-1762178160 source:c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\mozomenu.cpp
+1762207127 source:c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\mozomenu.cpp
 	<iostream>
 	"MozoMenu.h"
 	"MozoManager.h"
@@ -441,7 +442,7 @@
 	<iostream>
 	"StockManager.h"
 
-1762178160 source:c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\stockmenu.cpp
+1762207117 source:c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\stockmenu.cpp
 	<iostream>
 	"StockMenu.h"
 
@@ -455,7 +456,7 @@
 	<cstdio>
 	"TurnoManager.h"
 
-1762184699 source:c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\turnomenu.cpp
+1762207111 source:c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\turnomenu.cpp
 	<iostream>
 	"TurnoMenu.h"
 	"TurnoManager.h"
@@ -463,11 +464,11 @@
 1762186801 source:c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\venta.cpp
 	"Venta.h"
 
-1762188870 source:c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\app.cpp
+1762207158 source:c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\app.cpp
 	<iostream>
 	"App.h"
 
-1762188596 c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\app.h
+1762206990 c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\app.h
 	"ClienteMenu.h"
 	"MenuMenu.h"
 	"MesaMenu.h"
@@ -476,7 +477,7 @@
 	"StockMenu.h"
 	"VentaMenu.h"
 
-1762185677 source:c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\ventamenu.cpp
+1762207051 source:c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\ventamenu.cpp
 	<iostream>
 	"VentaMenu.h"
 	"VentaManager.h"

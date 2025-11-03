@@ -8,7 +8,7 @@ class TurnoMenu{
 public:
     TurnoMenu(const char* nombreArchivo);
 
-    void mostrar();
+    void mostrarMenu();
 
 protected:
     void mostrarOpciones();

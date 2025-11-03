@@ -18,31 +18,30 @@ void ClienteMenu:: mostrarMenu()
         opcion = seleccionOpcion();
         system("cls");
         ejecutarOpcion(opcion);
-        system("pause");
     }while (opcion != 0);
 }
 
 void ClienteMenu:: mostrarOpciones(){
 
-    cout << "--- Menu Clientes ---" << endl;
+    cout << "---- Menu Clientes ----" << endl;
     cout << "1. Agregar Cliente" << endl;
     cout << "2. Listar Clientes" << endl;
     cout << "3. Modificar Cliente" << endl;
     cout << "4. Eliminar Cliente" << endl;
-    cout << "0. Salir" << endl;
+    cout << "0. Volver" << endl;
 }
 
 int ClienteMenu:: seleccionOpcion(){
 
     int opcion;
     mostrarOpciones();
-    cout << "-------------------" << endl;
-    cout << "Ingrese opcion: ";
+    cout<< "------------------------" <<endl;
+    cout << "Seleccione una opcion: ";
     cin >> opcion;
 
     while (opcion < 0 || opcion > _cantidadOpciones){
-        cout << "Opcion incorrecta..." << endl;
-        cout << "Ingrese opcion: ";
+        cout << "\nOpcion incorrecta...\n" << endl;
+        cout << "Seleccione una opcion: ";
         cin >> opcion;
     }
 
@@ -68,7 +67,7 @@ void ClienteMenu::ejecutarOpcion(int opcion) {
                 cout << "\nVolviendo al menu principal...\n";
                 break;
             default:
-                cout << "Opcion invalida. Intente nuevamente." << endl;
+                cout << "\nOpcion invalida. Intente nuevamente." << endl;
         }
     } while (false);
 }

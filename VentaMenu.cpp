@@ -14,28 +14,29 @@ void VentaMenu::mostrarMenu() {
         opcion = seleccionOpcion();
         system("cls");
         ejecutarOpcion(opcion);
-        system("pause");
     } while (opcion != 0);
 }
 
 void VentaMenu::mostrarOpciones() {
-    cout << "----- MENU VENTAS -----" << endl;
+    cout << "---- Menu Ventas ----" << endl;
     cout << "1. Cargar venta" << endl;
     cout << "2. Listar todas las ventas" << endl;
     cout << "3. Buscar venta por ID" << endl;
     cout << "4. Modificar venta" << endl;
     cout << "5. Eliminar venta" << endl;
-    cout << "0. Volver al menu principal" << endl;
+    cout << "0. Volver" << endl;
 }
 
 int VentaMenu::seleccionOpcion() {
+
     int opcion;
     mostrarOpciones();
+    cout << "------------------------" << endl;
     cout << "Seleccione una opcion: ";
     cin >> opcion;
 
     while (opcion < 0 || opcion > _cantidadOpciones) {
-        cout << "Opcion incorrecta..." << endl;
+        cout << "\nOpcion incorrecta...\n" << endl;
         cout << "Seleccione una opcion: ";
         cin >> opcion;
     }
