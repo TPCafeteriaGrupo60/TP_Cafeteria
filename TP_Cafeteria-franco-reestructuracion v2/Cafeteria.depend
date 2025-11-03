@@ -1,0 +1,600 @@
+# depslib dependency file v1.0
+1761877983 source:c:\users\mati\downloads\tp cafeteria\archivocliente.cpp
+	<iostream>
+	<cstdio>
+	"ArchivoCliente.h"
+
+1761763860 c:\users\mati\downloads\tp cafeteria\archivocliente.h
+	"Cliente.h"
+	<cstdio>
+
+1761877833 c:\users\mati\downloads\tp cafeteria\cliente.h
+	<iostream>
+	<cstring>
+	"Fecha.h"
+
+1761874804 c:\users\mati\downloads\tp cafeteria\fecha.h
+	<iostream>
+
+1761770582 source:c:\users\mati\downloads\tp cafeteria\archivomenu.cpp
+	<iostream>
+	<cstdio>
+	"ArchivoMenu.h"
+
+1761766864 c:\users\mati\downloads\tp cafeteria\archivomenu.h
+	"menu.h"
+
+1761766600 c:\users\mati\downloads\tp cafeteria\menu.h
+
+1761422936 source:c:\users\mati\downloads\tp cafeteria\archivomesa.cpp
+	"ArchivoMesa.h"
+	<iostream>
+	<cstdio>
+
+1761420026 c:\users\mati\downloads\tp cafeteria\archivomesa.h
+	"Mesa.h"
+	<cstdio>
+
+1761419172 c:\users\mati\downloads\tp cafeteria\mesa.h
+	<iostream>
+	<cstring>
+
+1761876658 source:c:\users\mati\downloads\tp cafeteria\archivomozo.cpp
+	"ArchivoMozo.h"
+	<iostream>
+
+1761871402 c:\users\mati\downloads\tp cafeteria\archivomozo.h
+	"Mozo.h"
+	<cstdio>
+
+1761876744 c:\users\mati\downloads\tp cafeteria\mozo.h
+	"Fecha.h"
+
+1761883223 source:c:\users\mati\downloads\tp cafeteria\archivoturno.cpp
+	<iostream>
+	<cstdio>
+	"ArchivoTurno.h"
+
+1761883279 c:\users\mati\downloads\tp cafeteria\archivoturno.h
+	"Turno.h"
+
+1761821252 c:\users\mati\downloads\tp cafeteria\turno.h
+
+1761877983 source:c:\users\mati\downloads\tp cafeteria\cliente.cpp
+	<iostream>
+	<cstring>
+	"Cliente.h"
+	"Fecha.h"
+
+1761766788 source:c:\users\mati\downloads\tp cafeteria\menu.cpp
+	<iostream>
+	<cstring>
+	"menu.h"
+
+1761419172 source:c:\users\mati\downloads\tp cafeteria\mesa.cpp
+	<iostream>
+	<cstring>
+	"Mesa.h"
+
+1761882365 source:c:\users\mati\downloads\tp cafeteria\mozo.cpp
+	<iostream>
+	<cstring>
+	"Mozo.h"
+
+1761880553 source:c:\users\mati\downloads\tp cafeteria\stock.cpp
+	<iostream>
+	<iomanip>
+	<cstring>
+	"Stock.h"
+
+1761821238 source:c:\users\mati\downloads\tp cafeteria\turno.cpp
+	<iostream>
+	<cstring>
+	"Turno.h"
+
+1761881021 source:c:\users\mati\downloads\tp cafeteria\main.cpp
+	<iostream>
+	"ArchivoMozo.h"
+	"ArchivoCliente.h"
+	"ArchivoMesa.h"
+	"ArchivoMenu.h"
+	"ArchivoTurno.h"
+	"stock.h"
+
+1761880820 c:\users\mati\downloads\tp cafeteria\stock.h
+
+1761877983 source:c:\users\mati\downloads\todo tp programacion2\tp cafeteria\archivocliente.cpp
+	<iostream>
+	<cstdio>
+	"ArchivoCliente.h"
+
+1761763860 c:\users\mati\downloads\todo tp programacion2\tp cafeteria\archivocliente.h
+	"Cliente.h"
+	<cstdio>
+
+1761877833 c:\users\mati\downloads\todo tp programacion2\tp cafeteria\cliente.h
+	<iostream>
+	<cstring>
+	"Fecha.h"
+
+1761874804 c:\users\mati\downloads\todo tp programacion2\tp cafeteria\fecha.h
+	<iostream>
+
+1761770582 source:c:\users\mati\downloads\todo tp programacion2\tp cafeteria\archivomenu.cpp
+	<iostream>
+	<cstdio>
+	"ArchivoMenu.h"
+
+1761766864 c:\users\mati\downloads\todo tp programacion2\tp cafeteria\archivomenu.h
+	"menu.h"
+
+1761766600 c:\users\mati\downloads\todo tp programacion2\tp cafeteria\menu.h
+
+1761422936 source:c:\users\mati\downloads\todo tp programacion2\tp cafeteria\archivomesa.cpp
+	"ArchivoMesa.h"
+	<iostream>
+	<cstdio>
+
+1761420026 c:\users\mati\downloads\todo tp programacion2\tp cafeteria\archivomesa.h
+	"Mesa.h"
+	<cstdio>
+
+1761419172 c:\users\mati\downloads\todo tp programacion2\tp cafeteria\mesa.h
+	<iostream>
+	<cstring>
+
+1761939087 source:c:\users\mati\downloads\todo tp programacion2\tp cafeteria\archivomozo.cpp
+	"ArchivoMozo.h"
+	<iostream>
+
+1761871402 c:\users\mati\downloads\todo tp programacion2\tp cafeteria\archivomozo.h
+	"Mozo.h"
+	<cstdio>
+
+1761876744 c:\users\mati\downloads\todo tp programacion2\tp cafeteria\mozo.h
+	"Fecha.h"
+
+1761883223 source:c:\users\mati\downloads\todo tp programacion2\tp cafeteria\archivoturno.cpp
+	<iostream>
+	<cstdio>
+	"ArchivoTurno.h"
+
+1761883279 c:\users\mati\downloads\todo tp programacion2\tp cafeteria\archivoturno.h
+	"Turno.h"
+
+1761821252 c:\users\mati\downloads\todo tp programacion2\tp cafeteria\turno.h
+
+1761877983 source:c:\users\mati\downloads\todo tp programacion2\tp cafeteria\cliente.cpp
+	<iostream>
+	<cstring>
+	"Cliente.h"
+	"Fecha.h"
+
+1761881021 source:c:\users\mati\downloads\todo tp programacion2\tp cafeteria\main.cpp
+	<iostream>
+	"ArchivoMozo.h"
+	"ArchivoCliente.h"
+	"ArchivoMesa.h"
+	"ArchivoMenu.h"
+	"ArchivoTurno.h"
+	"stock.h"
+
+1761880820 c:\users\mati\downloads\todo tp programacion2\tp cafeteria\stock.h
+
+1761766788 source:c:\users\mati\downloads\todo tp programacion2\tp cafeteria\menu.cpp
+	<iostream>
+	<cstring>
+	"menu.h"
+
+1761419172 source:c:\users\mati\downloads\todo tp programacion2\tp cafeteria\mesa.cpp
+	<iostream>
+	<cstring>
+	"Mesa.h"
+
+1761939084 source:c:\users\mati\downloads\todo tp programacion2\tp cafeteria\mozo.cpp
+	<iostream>
+	<cstring>
+	"Mozo.h"
+	"ArchivoTurno.h"
+
+1761880553 source:c:\users\mati\downloads\todo tp programacion2\tp cafeteria\stock.cpp
+	<iostream>
+	<iomanip>
+	<cstring>
+	"Stock.h"
+
+1761821238 source:c:\users\mati\downloads\todo tp programacion2\tp cafeteria\turno.cpp
+	<iostream>
+	<cstring>
+	"Turno.h"
+
+1762032082 source:c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\archivocliente.cpp
+	<iostream>
+	<cstdio>
+	"ArchivoCliente.h"
+
+1762031580 c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\archivocliente.h
+	"Cliente.h"
+	<cstdio>
+
+1761877833 c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\cliente.h
+	<iostream>
+	<cstring>
+	"Fecha.h"
+
+1761874804 c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\fecha.h
+	<iostream>
+
+1762031796 source:c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\archivomenu.cpp
+	<iostream>
+	<cstdio>
+	"ArchivoMenu.h"
+
+1762031615 c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\archivomenu.h
+	"menu.h"
+
+1761766600 c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\menu.h
+
+1762030168 source:c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\archivomesa.cpp
+	<iostream>
+	<cstdio>
+	"ArchivoMesa.h"
+
+1762031650 c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\archivomesa.h
+	"Mesa.h"
+	<cstdio>
+
+1761419172 c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\mesa.h
+	<iostream>
+	<cstring>
+
+1762028745 source:c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\archivomozo.cpp
+	"ArchivoMozo.h"
+	<iostream>
+
+1762027133 c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\archivomozo.h
+	"Mozo.h"
+	<cstdio>
+
+1762028543 c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\mozo.h
+	"Fecha.h"
+
+1761955683 source:c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\archivoturno.cpp
+	<iostream>
+	<cstdio>
+	"ArchivoTurno.h"
+
+1762029652 c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\archivoturno.h
+	"Turno.h"
+
+1761821252 c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\turno.h
+
+1761877983 source:c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\cliente.cpp
+	<iostream>
+	<cstring>
+	"Cliente.h"
+	"Fecha.h"
+
+1761766788 source:c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\menu.cpp
+	<iostream>
+	<cstring>
+	"menu.h"
+
+1762030090 source:c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\mesa.cpp
+	<iostream>
+	<cstring>
+	"Mesa.h"
+
+1762028572 source:c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\mozo.cpp
+	<iostream>
+	<cstring>
+	"Mozo.h"
+	"ArchivoTurno.h"
+
+1761880553 source:c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\stock.cpp
+	<iostream>
+	<iomanip>
+	<cstring>
+	"Stock.h"
+
+1761880820 c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\stock.h
+
+1761821238 source:c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\turno.cpp
+	<iostream>
+	<cstring>
+	"Turno.h"
+
+1762030740 source:c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\main.cpp
+	<iostream>
+	"ClienteMenu.h"
+	"ArchivoMenu.h"
+	"MesaMenu.h"
+	"MozoMenu.h"
+	"TurnoMenu.h"
+	"stock.h"
+
+1762019000 c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\turnomenu.h
+	"TurnoManager.h"
+
+1762018941 c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\turnomanager.h
+	"ArchivoTurno.h"
+
+1762019025 source:c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\turnomanager.cpp
+	<iostream>
+	<cstdio>
+	"TurnoManager.h"
+
+1762018877 source:c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\turnomenu.cpp
+	<iostream>
+	"TurnoMenu.h"
+	"TurnoManager.h"
+
+1762024887 source:c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\clientemenu.cpp
+	<iostream>
+	"ClienteMenu.h"
+	"ClienteManager.h"
+
+1762023901 c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\clientemenu.h
+	"ClienteManager.h"
+
+1762023191 c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\clientemanager.h
+	"ArchivoCliente.h"
+
+1762030460 source:c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\mesamanager.cpp
+	<iostream>
+	<cstdio>
+	"MesaManager.h"
+
+1762030631 source:c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\mesamenu.cpp
+	<iostream>
+	"MesaMenu.h"
+	"MesaManager.h"
+
+1762028944 source:c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\mozomanager.cpp
+	<iostream>
+	<cstdio>
+	"MozoManager.h"
+
+1762027543 source:c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\mozomenu.cpp
+	<iostream>
+	"MozoMenu.h"
+	"MozoManager.h"
+
+1762032153 source:c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\clientemanager.cpp
+	<iostream>
+	<cstdio>
+	"ClienteManager.h"
+
+1762027536 c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\mozomenu.h
+	"MozoManager.h"
+
+1762024979 c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\mozomanager.h
+	"ArchivoMozo.h"
+
+1762029341 c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\mesamenu.h
+	"MesaManager.h"
+
+1762029294 c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\mesamanager.h
+	"ArchivoMesa.h"
+
+1762031851 source:c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\menumanager.cpp
+	<iostream>
+	<cstdio>
+	"MenuManager.h"
+
+1762031118 c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\menumanager.h
+	"ArchivoMenu.h"
+
+1762031115 source:c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\menumenu.cpp
+	<iostream>
+	"MenuMenu.h"
+	"MenuManager.h"
+
+1762031114 c:\users\franc\tup - utn\2do cuatrimestre 2025 - tup\programación 2\tp integrador\tp cafeteria v2\menumenu.h
+	"MenuManager.h"
+
+1762032562 source:c:\users\mati\downloads\tp_cafeteria-franco-reestructuracion\archivocliente.cpp
+	<iostream>
+	<cstdio>
+	"ArchivoCliente.h"
+
+1762032562 c:\users\mati\downloads\tp_cafeteria-franco-reestructuracion\archivocliente.h
+	"Cliente.h"
+	<cstdio>
+
+1762032562 c:\users\mati\downloads\tp_cafeteria-franco-reestructuracion\cliente.h
+	<iostream>
+	<cstring>
+	"Fecha.h"
+
+1762032562 c:\users\mati\downloads\tp_cafeteria-franco-reestructuracion\fecha.h
+	<iostream>
+
+1762032562 source:c:\users\mati\downloads\tp_cafeteria-franco-reestructuracion\archivomenu.cpp
+	<iostream>
+	<cstdio>
+	"ArchivoMenu.h"
+
+1762032562 c:\users\mati\downloads\tp_cafeteria-franco-reestructuracion\archivomenu.h
+	"menu.h"
+
+1762032562 c:\users\mati\downloads\tp_cafeteria-franco-reestructuracion\menu.h
+
+1762032562 source:c:\users\mati\downloads\tp_cafeteria-franco-reestructuracion\archivomesa.cpp
+	<iostream>
+	<cstdio>
+	"ArchivoMesa.h"
+
+1762032562 c:\users\mati\downloads\tp_cafeteria-franco-reestructuracion\archivomesa.h
+	"Mesa.h"
+	<cstdio>
+
+1762032562 c:\users\mati\downloads\tp_cafeteria-franco-reestructuracion\mesa.h
+	<iostream>
+	<cstring>
+
+1762032562 source:c:\users\mati\downloads\tp_cafeteria-franco-reestructuracion\archivomozo.cpp
+	"ArchivoMozo.h"
+	<iostream>
+
+1762032562 c:\users\mati\downloads\tp_cafeteria-franco-reestructuracion\archivomozo.h
+	"Mozo.h"
+	<cstdio>
+
+1762032562 c:\users\mati\downloads\tp_cafeteria-franco-reestructuracion\mozo.h
+	"Fecha.h"
+
+1762032562 source:c:\users\mati\downloads\tp_cafeteria-franco-reestructuracion\archivoturno.cpp
+	<iostream>
+	<cstdio>
+	"ArchivoTurno.h"
+
+1762032562 c:\users\mati\downloads\tp_cafeteria-franco-reestructuracion\archivoturno.h
+	"Turno.h"
+
+1762032562 c:\users\mati\downloads\tp_cafeteria-franco-reestructuracion\turno.h
+
+1762032562 source:c:\users\mati\downloads\tp_cafeteria-franco-reestructuracion\cliente.cpp
+	<iostream>
+	<cstring>
+	"Cliente.h"
+	"Fecha.h"
+
+1762051226 source:c:\users\mati\downloads\tp_cafeteria-franco-reestructuracion\main.cpp
+	<iostream>
+	"ClienteMenu.h"
+	"MenuMenu.h"
+	"MesaMenu.h"
+	"MozoMenu.h"
+	"TurnoMenu.h"
+	"stock.h"
+	"ArchivoVenta.h"
+
+1762032562 c:\users\mati\downloads\tp_cafeteria-franco-reestructuracion\clientemenu.h
+	"ClienteManager.h"
+
+1762032562 c:\users\mati\downloads\tp_cafeteria-franco-reestructuracion\clientemanager.h
+	"ArchivoCliente.h"
+
+1762032562 c:\users\mati\downloads\tp_cafeteria-franco-reestructuracion\menumenu.h
+	"MenuManager.h"
+
+1762032562 c:\users\mati\downloads\tp_cafeteria-franco-reestructuracion\menumanager.h
+	"ArchivoMenu.h"
+
+1762032562 c:\users\mati\downloads\tp_cafeteria-franco-reestructuracion\mesamenu.h
+	"MesaManager.h"
+
+1762032562 c:\users\mati\downloads\tp_cafeteria-franco-reestructuracion\mesamanager.h
+	"ArchivoMesa.h"
+
+1762032562 c:\users\mati\downloads\tp_cafeteria-franco-reestructuracion\mozomenu.h
+	"MozoManager.h"
+
+1762032562 c:\users\mati\downloads\tp_cafeteria-franco-reestructuracion\mozomanager.h
+	"ArchivoMozo.h"
+
+1762032562 c:\users\mati\downloads\tp_cafeteria-franco-reestructuracion\turnomenu.h
+	"TurnoManager.h"
+
+1762032562 c:\users\mati\downloads\tp_cafeteria-franco-reestructuracion\turnomanager.h
+	"ArchivoTurno.h"
+
+1762032562 c:\users\mati\downloads\tp_cafeteria-franco-reestructuracion\stock.h
+
+1762032562 source:c:\users\mati\downloads\tp_cafeteria-franco-reestructuracion\menu.cpp
+	<iostream>
+	<cstring>
+	"menu.h"
+
+1762032562 source:c:\users\mati\downloads\tp_cafeteria-franco-reestructuracion\mesa.cpp
+	<iostream>
+	<cstring>
+	"Mesa.h"
+
+1762032562 source:c:\users\mati\downloads\tp_cafeteria-franco-reestructuracion\mozo.cpp
+	<iostream>
+	<cstring>
+	"Mozo.h"
+	"ArchivoTurno.h"
+
+1762032562 source:c:\users\mati\downloads\tp_cafeteria-franco-reestructuracion\stock.cpp
+	<iostream>
+	<iomanip>
+	<cstring>
+	"Stock.h"
+
+1762032562 source:c:\users\mati\downloads\tp_cafeteria-franco-reestructuracion\turno.cpp
+	<iostream>
+	<cstring>
+	"Turno.h"
+
+1762032562 source:c:\users\mati\downloads\tp_cafeteria-franco-reestructuracion\turnomanager.cpp
+	<iostream>
+	<cstdio>
+	"TurnoManager.h"
+
+1762032562 source:c:\users\mati\downloads\tp_cafeteria-franco-reestructuracion\turnomenu.cpp
+	<iostream>
+	"TurnoMenu.h"
+	"TurnoManager.h"
+
+1762049445 source:c:\users\mati\downloads\tp_cafeteria-franco-reestructuracion\venta.cpp
+	"Venta.h"
+
+1762041441 c:\users\mati\downloads\tp_cafeteria-franco-reestructuracion\venta.h
+	<iostream>
+	<cstring>
+	"Fecha.h"
+
+1762050373 source:c:\users\mati\downloads\tp_cafeteria-franco-reestructuracion\archivoventa.cpp
+	<iostream>
+	<cstdio>
+	"ArchivoVenta.h"
+	"ArchivoMozo.h"
+	"ArchivoMesa.h"
+	"ArchivoCliente.h"
+
+1762050020 c:\users\mati\downloads\tp_cafeteria-franco-reestructuracion\archivoventa.h
+	"Venta.h"
+
+1762032562 source:c:\users\mati\downloads\tp_cafeteria-franco-reestructuracion\clientemanager.cpp
+	<iostream>
+	<cstdio>
+	"ClienteManager.h"
+
+1762032562 source:c:\users\mati\downloads\tp_cafeteria-franco-reestructuracion\clientemenu.cpp
+	<iostream>
+	"ClienteMenu.h"
+	"ClienteManager.h"
+
+1762032562 source:c:\users\mati\downloads\tp_cafeteria-franco-reestructuracion\menumanager.cpp
+	<iostream>
+	<cstdio>
+	"MenuManager.h"
+
+1762032562 source:c:\users\mati\downloads\tp_cafeteria-franco-reestructuracion\menumenu.cpp
+	<iostream>
+	"MenuMenu.h"
+	"MenuManager.h"
+
+1762032562 source:c:\users\mati\downloads\tp_cafeteria-franco-reestructuracion\mesamanager.cpp
+	<iostream>
+	<cstdio>
+	"MesaManager.h"
+
+1762032562 source:c:\users\mati\downloads\tp_cafeteria-franco-reestructuracion\mesamenu.cpp
+	<iostream>
+	"MesaMenu.h"
+	"MesaManager.h"
+
+1762032562 source:c:\users\mati\downloads\tp_cafeteria-franco-reestructuracion\mozomanager.cpp
+	<iostream>
+	<cstdio>
+	"MozoManager.h"
+
+1762032562 source:c:\users\mati\downloads\tp_cafeteria-franco-reestructuracion\mozomenu.cpp
+	<iostream>
+	"MozoMenu.h"
+	"MozoManager.h"
+
