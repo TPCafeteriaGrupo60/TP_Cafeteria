@@ -75,6 +75,8 @@
 		<Unit filename="Stock.h" />
 		<Unit filename="StockManager.cpp" />
 		<Unit filename="StockManager.h" />
+		<Unit filename="StockMenu.cpp" />
+		<Unit filename="StockMenu.h" />
 		<Unit filename="Turno.cpp" />
 		<Unit filename="Turno.h" />
 		<Unit filename="TurnoManager.cpp" />
@@ -83,6 +85,10 @@
 		<Unit filename="TurnoMenu.h" />
 		<Unit filename="Venta.cpp" />
 		<Unit filename="Venta.h" />
+		<Unit filename="VentaManager.cpp" />
+		<Unit filename="VentaManager.h" />
+		<Unit filename="VentaMenu.cpp" />
+		<Unit filename="VentaMenu.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
